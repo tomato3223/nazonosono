@@ -433,7 +433,7 @@ body {
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   margin: 0;
 }
 @media print, screen and (min-width: 520px) {
@@ -448,37 +448,38 @@ body {
 /* line 19 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
   body {
     font-size: 1.6rem;
+    letter-spacing: 0.1em;
   }
 }
 
-/* line 22 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 23 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 * {
   float: none;
   position: static;
 }
 
-/* line 26 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 27 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 29 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 a:hover {
   color: #c5da21;
 }
 
-/* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 img {
   width: 100%;
 }
 
-/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 35 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 li {
   list-style: none;
 }
 
-/* line 38 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-moz-selection {
   color: #778600;
   background-color: #000;
@@ -488,7 +489,7 @@ li {
   background-color: #000;
 }
 
-/* line 41 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::moz-selection {
   color: #778600;
   background-color: #000;
