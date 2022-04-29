@@ -1,0 +1,586 @@
+
+/* line 20 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\style.styl */
+
+/* line 1 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\style.styl */
+@charset "UTF-8";
+
+/* line 297 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\setting\_path.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\setting\_path.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\setting\_color.styl */
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\setting\_color.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\mixin\_mq.styl */
+
+/* line 23 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\mixin\_mq.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\component\_heading.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\component\_heading.styl */
+.ttl--1 {
+  font-family: f-ttl, sans-serif;
+  font-size: 130%;
+  font-weight: inherit;
+}
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\component\_heading.styl */
+.ttl--2 {
+  font-family: f-ttl, sans-serif;
+  font-size: 110%;
+  font-weight: inherit;
+}
+@media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\component\_heading.styl */
+  .ttl--1 {
+    font-size: 200%;
+  }
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\component\_heading.styl */
+  .ttl--2 {
+    font-size: 180%;
+  }
+}
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\component\_heading.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+
+/* line 8 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+::before,
+::after {
+  text-decoration: inherit; /* 1 */
+  vertical-align: inherit; /* 2 */
+}
+
+/* line 35 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+html {
+  cursor: default; /* 1 */
+  line-height: 1.5; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  -webkit-tap-highlight-color: transparent /* 4 */;
+  -ms-text-size-adjust: 100%; /* 5 */
+  -webkit-text-size-adjust: 100%; /* 5 */
+  word-break: break-word; /* 6 */
+}
+
+/* line 53 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+body {
+  margin: 0;
+}
+
+/* line 62 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 74 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+dl dl,
+dl ol,
+dl ul,
+ol dl,
+ul dl {
+  margin: 0;
+}
+
+/* line 86 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 0;
+}
+
+/* line 98 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+hr {
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/* line 107 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+main {
+  display: block;
+}
+
+/* line 115 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+nav ol,
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 126 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* line 138 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+a {
+  background-color: transparent;
+}
+
+/* line 146 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+abbr[title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/* line 155 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* line 165 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* line 176 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+small {
+  font-size: 80%;
+}
+
+/* line 187 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/* line 200 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+audio,
+video {
+  display: inline-block;
+}
+
+/* line 209 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 218 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+iframe {
+  border-style: none;
+}
+
+/* line 226 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+img {
+  border-style: none;
+}
+
+/* line 234 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+svg:not([fill]) {
+  fill: currentColor;
+}
+
+/* line 242 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 253 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+table {
+  border-collapse: collapse;
+}
+
+/* line 264 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+button,
+input,
+select {
+  margin: 0;
+}
+
+/* line 275 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+button {
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
+}
+
+/* line 284 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* line 296 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+fieldset {
+  border: 1px solid #a0a0a0; /* 1 */
+  padding: 0.35em 0.75em 0.625em; /* 2 */
+}
+
+/* line 305 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+input {
+  overflow: visible;
+}
+
+/* line 314 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+legend {
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
+}
+
+/* line 326 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/* line 335 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+select {
+  text-transform: none;
+}
+
+/* line 345 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+textarea {
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+  resize: vertical; /* 3 */
+}
+
+/* line 355 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+[type="checkbox"],
+[type="radio"] {
+  padding: 0;
+}
+
+/* line 365 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/* line 374 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 383 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/* line 392 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 401 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* line 410 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* line 419 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* line 427 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/* line 438 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+details {
+  display: block;
+}
+
+/* line 446 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+dialog {
+  background-color: #fff;
+  border: solid;
+  color: #000;
+  display: block;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+
+/* line 464 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+dialog:not([open]) {
+  display: none;
+}
+
+/* line 472 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+summary {
+  display: list-item;
+}
+
+/* line 483 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+canvas {
+  display: inline-block;
+}
+
+/* line 491 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+template {
+  display: none;
+}
+
+/* line 504 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] { /* 1 */
+  touch-action: manipulation; /* 2 */
+}
+
+/* line 521 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+[hidden] {
+  display: none;
+}
+
+/* line 532 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+[aria-busy="true"] {
+  cursor: progress;
+}
+
+/* line 540 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+[aria-controls] {
+  cursor: pointer;
+}
+
+/* line 549 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+[aria-disabled="true"],
+[disabled] {
+  cursor: not-allowed;
+}
+
+/* line 559 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+[aria-hidden="false"][hidden] {
+  display: initial;
+}
+
+/* line 563 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+[aria-hidden="false"][hidden]:not(:focus) {
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+/* line 569 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+/* line 570 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_sanitize.styl */
+
+/* line 570 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+html {
+  font-size: 62.5%;
+}
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+body {
+  background-color: #778600;
+  color: #fff;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "Helvetica Neue", "ヒラギノ角ゴシック", "Hiragino Sans", "メイリオ", Meiryo, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+@media print, screen and (min-width: 520px) {
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+  body {
+    font-size: 1.4rem;
+  }
+}
+@media print, screen and (min-width: 1025px) {
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+/* line 21 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+* {
+  float: none;
+  position: static;
+}
+
+/* line 25 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 28 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+a:hover {
+  color: #c5da21;
+}
+
+/* line 30 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+img {
+  width: 100%;
+}
+
+/* line 33 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+li {
+  list-style: none;
+}
+
+/* line 37 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+::-moz-selection {
+  color: #778600;
+  background-color: #fff;
+}
+::selection {
+  color: #778600;
+  background-color: #fff;
+}
+
+/* line 40 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+::moz-selection {
+  color: #778600;
+  background-color: #fff;
+}
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+
+/* line 42 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\foundation\_base.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+.linebot__main {
+  padding: 6rem 3rem 6rem 8rem;
+}
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+.linebot__main__block {
+  padding: 1rem 0;
+}
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+.linebot__main__block__desc__siteName {
+  color: #f6f117;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+/* line 11 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+.linebot__main__block__desc__ttl {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+.linebot__main__block__desc__stc {
+  margin: 1rem 0;
+}
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+.linebot__main__block__desc__stc a {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+.linebot__main__block__ss.mark {
+  margin-top: 3rem;
+}
+@media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 23 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+
+/* line 24 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+  .linebot__main {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: row;
+    grid-column-gap: 8rem;
+    -ms-grid-columns: 1fr 8rem 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 12rem 5rem 12rem 14rem;
+  }
+
+/* line 30 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+  .linebot__main__block {
+    padding: 0;
+  }
+
+/* line 32 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+
+/* line 33 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+  .linebot__main__block__desc__details {
+    margin-bottom: 3rem;
+  }
+
+/* line 35 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+  .linebot__main__block__ss.mark {
+    margin-top: 5rem;
+  }
+}
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\riddle-fes-hp\src\stylus\page\_contact.styl */
+/*# sourceMappingURL=style.css.map */
