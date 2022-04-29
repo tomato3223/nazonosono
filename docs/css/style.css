@@ -432,52 +432,53 @@ body {
   color: #000;
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
   font-size: 1.6rem;
-  font-weight: 300;
+  font-weight: 400;
+  letter-spacing: 0.1em;
   margin: 0;
 }
 @media print, screen and (min-width: 520px) {
 
-/* line 14 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 15 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
   body {
     font-size: 1.4rem;
   }
 }
 @media print, screen and (min-width: 1025px) {
 
-/* line 18 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 19 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
   body {
     font-size: 1.6rem;
   }
 }
 
-/* line 21 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 22 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 * {
   float: none;
   position: static;
 }
 
-/* line 25 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 26 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 28 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 29 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 a:hover {
   color: #c5da21;
 }
 
-/* line 30 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 31 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 img {
   width: 100%;
 }
 
-/* line 33 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 34 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 li {
   list-style: none;
 }
 
-/* line 37 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 38 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-moz-selection {
   color: #778600;
   background-color: #000;
@@ -487,7 +488,7 @@ li {
   background-color: #000;
 }
 
-/* line 40 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 41 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::moz-selection {
   color: #778600;
   background-color: #000;
