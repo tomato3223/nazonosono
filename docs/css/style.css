@@ -523,14 +523,14 @@ li {
   margin-top: 3vw;
 }
 
-/* line 4 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-.topAbout {
-  padding: 3vw;
+/* line 3 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+.top__logo {
+  width: 20%;
 }
 
 /* line 6 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-.topAbout__logo {
-  width: 20%;
+.topAbout {
+  padding: 3vw;
 }
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
