@@ -1,5 +1,5 @@
 
-/* line 21 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\style.styl */
+/* line 22 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\style.styl */
 
 /* line 1 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
@@ -49,6 +49,21 @@
 }
 
 /* line 15 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_heading.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
+.btn--box {
+  border: 0.2rem solid #000;
+  padding: 0.5rem;
+}
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
+.btn--box span {
+  vertical-align: bottom;
+}
+
+/* line 5 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_sanitize.styl */
 
