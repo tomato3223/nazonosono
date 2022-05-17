@@ -622,9 +622,14 @@ nav.hamburgerMenu.active {
   opacity: 100;
 }
 
+/* line 101 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+.humburgerMenu__contents {
+  padding: 0;
+}
+
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 99 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 102 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 
