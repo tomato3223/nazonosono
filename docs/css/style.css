@@ -600,7 +600,7 @@ nav.hamburgerMenu ul li {
 }
 
 /* line 82 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
-nav.hamburgerMenup ul li:last-child {
+nav.hamburgerMenu ul li:last-child {
   padding-bottom: 0;
 }
 
@@ -623,7 +623,7 @@ nav.hamburgerMenu.active {
 }
 
 /* line 101 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
-.humburgerMenu__contents {
+.hamburgerMenu__contents {
   padding: 0;
 }
 
