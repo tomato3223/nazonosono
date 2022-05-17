@@ -14,7 +14,7 @@
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_color.styl */
 
-/* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_color.styl */
+/* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_color.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\mixin\_mq.styl */
 
@@ -54,7 +54,7 @@
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
 .btn--box {
-  border: 0.2rem solid #112a4a;
+  border: 0.2rem solid #0e213f;
   padding: 0.5rem;
 }
 
@@ -444,7 +444,7 @@ html {
 /* line 4 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 body {
   background-color: c-bg-3;
-  color: #112a4a;
+  color: #0e213f;
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
@@ -497,17 +497,17 @@ li {
 /* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-moz-selection {
   color: #fff;
-  background-color: #112a4a;
+  background-color: #0e213f;
 }
 ::selection {
   color: #fff;
-  background-color: #112a4a;
+  background-color: #0e213f;
 }
 
 /* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::moz-selection {
   color: #fff;
-  background-color: #112a4a;
+  background-color: #0e213f;
 }
 
 /* line 44 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
@@ -516,7 +516,7 @@ li {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .header {
-  background-color: #ea3404;
+  background-color: #dc4238;
   position: sticky;
   top: 0;
   height: calc(12px * 2 + 42px);
@@ -535,7 +535,7 @@ li {
 
 /* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger {
-  background-color: #112a4a;
+  background-color: c-navy;
   cursor: pointer;
   display: block;
   height: 42px;
