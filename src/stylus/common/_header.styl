@@ -62,7 +62,8 @@
   position: fixed;
   text-align: center;
   top: calc(12px * 2 + 42px);
-  transition: opacity .6s ease, visibility .6s ease;
+  transition: .6s ease;
+  visibility: hidden;
   width: 100%;
   z-index: 2;
   & ul
@@ -86,3 +87,4 @@
   /* このクラスを、jQueryで付与・削除する */
   &.active
     opacity: 100;
+    visibility: visible;

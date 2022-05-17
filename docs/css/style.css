@@ -608,20 +608,21 @@ li {
   position: fixed;
   text-align: center;
   top: calc(12px * 2 + 42px);
-  transition: opacity 0.6s ease, visibility 0.6s ease;
+  transition: 0.6s ease;
+  visibility: hidden;
   width: 100%;
   z-index: 2;
 /* このクラスを、jQueryで付与・削除する */
 }
 
-/* line 68 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 69 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul {
   margin: 0 auto;
   padding: 0;
   width: 100%;
 }
 
-/* line 72 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 73 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li {
   list-style-type: none;
   padding: 0;
@@ -629,17 +630,17 @@ li {
   transition: 0.4s all;
 }
 
-/* line 77 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 78 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li:last-child {
   padding-bottom: 0;
 }
 
-/* line 79 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 80 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li:hover {
   background: #fcf17e;
 }
 
-/* line 81 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 82 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li a {
   color: #0e213f;
   display: block;
@@ -647,14 +648,15 @@ li {
   text-decoration: none;
 }
 
-/* line 87 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 88 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu.active {
   opacity: 100;
+  visibility: visible;
 }
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 88 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 90 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
