@@ -443,7 +443,7 @@ html {
 
 /* line 4 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 body {
-  background-color: c-bg-3;
+  background-color: #fff;
   color: #0e213f;
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
   font-size: 1.6rem;
@@ -481,7 +481,7 @@ a {
 
 /* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 a:hover {
-  color: c-theme-1;
+  color: #808080;
 }
 
 /* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
