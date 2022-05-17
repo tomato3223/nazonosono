@@ -2,10 +2,13 @@
   background-color #EA3404
   position: sticky
   top: 0
+  height calc(12px * 2 + 42px)
 
 .headerLogo
   margin 0
-  width: 135px
+  & img
+    height calc(12px * 2 + 42px)
+    width auto
 
 .hamburger
   background-color: rgba(0,0,0,0.7);  display : block;
@@ -20,7 +23,7 @@
   & span
     background: #fff;
     display: block;
-    height: 3px;
+    height: 2px;
     left: 8px;
     position: absolute;
     transition: 0.3s ease-in-out;
@@ -60,7 +63,7 @@
   opacity: 0;
   position: fixed;
   text-align: center;
-  top: 0;
+  top: calc(12px * 2 + 42px);
   transition: opacity .6s ease, visibility .6s ease;
   width: 100%;
   z-index: 2;
@@ -84,6 +87,5 @@
         text-decoration :none;
 
 /* このクラスを、jQueryで付与・削除する */
-.hamburgerMenu.active {
+.hamburgerMenu.active
   opacity: 100;
-}
