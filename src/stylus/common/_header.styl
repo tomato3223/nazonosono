@@ -36,25 +36,23 @@
       top 20px
     &:nth-child(3)
       top 30px
-
-/* ナビ開いてる時のボタン */
-.hamburger.active span:nth-child(1) {
-  background: c-bg-1;
-  left: 8px;
-  top: 19px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-}
-
-.hamburger.active span:nth-child(2),
-.hamburger.active span:nth-child(3) {
-  background: c-bg-1;
-  top: 19px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-}
+  /* ナビ開いてる時のボタン */
+  &.active
+    & span
+      &:nth-child(1)
+        background: c-bg-1;
+        left: 8px;
+        top: 19px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+      &:nth-child(2),
+      &:nth-child(3)
+        background: c-bg-1;
+        top: 19px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
 
 .hamburgerMenu
   background: c-gold;
@@ -85,7 +83,6 @@
         display: block;
         padding: 2em 0;
         text-decoration :none;
-
-/* このクラスを、jQueryで付与・削除する */
-.hamburgerMenu.active
-  opacity: 100;
+  /* このクラスを、jQueryで付与・削除する */
+  &.active
+    opacity: 100;
