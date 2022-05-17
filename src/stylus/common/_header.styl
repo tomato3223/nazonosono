@@ -31,17 +31,14 @@
   width : 25px;
 }
 
-.hamburger span:nth-child(1) {
-  top: 10px;
-}
-
-.hamburger span:nth-child(2) {
-  top: 20px;
-}
-
-.hamburger span:nth-child(3) {
-  top: 30px;
-}
+.hamburger
+  & span
+    &:nth-child(1)
+      top 10px
+    &:nth-child(2)
+      top 20px
+    &:nth-child(3)
+      top 30px
 
 /* ナビ開いてる時のボタン */
 .hamburger.active span:nth-child(1) {
@@ -62,7 +59,7 @@
   -moz-transform: rotate(45deg);
 }
 
-nav.hamburgerMenu {
+.hamburgerMenu
   background: rgba(0,0,0,0.7);
   color: #fff;
   left: 0;
@@ -73,38 +70,26 @@ nav.hamburgerMenu {
   transition: opacity .6s ease, visibility .6s ease;
   width: 100%;
   z-index: 2;
-}
-
-nav.hamburgerMenu ul {
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-}
-
-nav.hamburgerMenu ul li {
-  list-style-type: none;
-  padding: 0;
-  width: 100%;
-  transition: .4s all;
-}
-nav.hamburgerMenu ul li:last-child {
-  padding-bottom: 0;
-}
-nav.hamburgerMenu ul li:hover{
-  background :#ddd;
-}
-
-nav.hamburgerMenu ul li a {
-  color: #fff;
-  display: block;
-  padding: 2em 0;
-  text-decoration :none;
-}
+  & ul
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    & li
+      list-style-type: none;
+      padding: 0;
+      width: 100%;
+      transition: .4s all;
+      &:last-child
+        padding-bottom: 0;
+      &:hover
+        background :#ddd;
+      & a
+        color: #fff;
+        display: block;
+        padding: 2em 0;
+        text-decoration :none;
 
 /* このクラスを、jQueryで付与・削除する */
-nav.hamburgerMenu.active {
+.hamburgerMenu.active {
   opacity: 100;
 }
-
-.hamburgerMenu__contents
-  padding:

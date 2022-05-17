@@ -555,6 +555,10 @@ li {
 }
 
 /* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+
+/* line 35 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+
+/* line 36 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger span:nth-child(1) {
   top: 10px;
 }
@@ -564,12 +568,12 @@ li {
   top: 20px;
 }
 
-/* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger span:nth-child(3) {
   top: 30px;
 }
 
-/* line 47 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 44 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger.active span:nth-child(1) {
   background: #fff;
   left: 8px;
@@ -579,7 +583,7 @@ li {
   -moz-transform: rotate(-45deg);
 }
 
-/* line 56 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 53 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger.active span:nth-child(2),
 .hamburger.active span:nth-child(3) {
   background: #fff;
@@ -589,8 +593,8 @@ li {
   -moz-transform: rotate(45deg);
 }
 
-/* line 65 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-nav.hamburgerMenu {
+/* line 62 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+.hamburgerMenu {
   background: rgba(0,0,0,0.7);
   color: #fff;
   left: 0;
@@ -603,49 +607,47 @@ nav.hamburgerMenu {
   z-index: 2;
 }
 
-/* line 78 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-nav.hamburgerMenu ul {
+/* line 73 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+.hamburgerMenu ul {
   margin: 0 auto;
   padding: 0;
   width: 100%;
 }
 
-/* line 84 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-nav.hamburgerMenu ul li {
+/* line 77 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+.hamburgerMenu ul li {
   list-style-type: none;
   padding: 0;
   width: 100%;
   transition: 0.4s all;
 }
 
-/* line 90 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-nav.hamburgerMenu ul li:last-child {
+/* line 82 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+.hamburgerMenu ul li:last-child {
   padding-bottom: 0;
 }
 
-/* line 93 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-nav.hamburgerMenu ul li:hover {
+/* line 84 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+.hamburgerMenu ul li:hover {
   background: #ddd;
 }
 
-/* line 97 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-nav.hamburgerMenu ul li a {
+/* line 86 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+.hamburgerMenu ul li a {
   color: #fff;
   display: block;
   padding: 2em 0;
   text-decoration: none;
 }
 
-/* line 105 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-nav.hamburgerMenu.active {
+/* line 93 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+.hamburgerMenu.active {
   opacity: 100;
 }
 
-/* line 109 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 111 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 95 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
