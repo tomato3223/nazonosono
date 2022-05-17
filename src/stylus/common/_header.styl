@@ -1,3 +1,7 @@
+.header
+  position: sticky
+  top: 0
+
 .hamburger {
   display : block;
   position: fixed;
@@ -14,9 +18,9 @@
 .hamburger span {
   display : block;
   position: absolute;
-  width   : 30px;
-  height  : 2px;
-  left    : 6px;
+  width   : 25px;
+  height  : 3px;
+  left    : 8px;
   background : #fff;
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition   : 0.3s ease-in-out;
@@ -37,8 +41,8 @@
 
 /* ナビ開いてる時のボタン */
 .hamburger.active span:nth-child(1) {
-  top : 16px;
-  left: 6px;
+  top : 19px;
+  left: 8px;
   background :#fff;
   -webkit-transform: rotate(-45deg);
   -moz-transform   : rotate(-45deg);
@@ -47,7 +51,7 @@
 
 .hamburger.active span:nth-child(2),
 .hamburger.active span:nth-child(3) {
-  top: 16px;
+  top: 19px;
   background :#fff;
   -webkit-transform: rotate(45deg);
   -moz-transform   : rotate(45deg);
@@ -99,4 +103,4 @@ nav.hamburgerMenu.active {
 }
 
 .hamburgerMenu__contents
-  padding: 0
+  padding:
