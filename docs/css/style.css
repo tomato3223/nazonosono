@@ -516,24 +516,25 @@ li {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .header {
-  background-color: #0e213f;
-  position: sticky;
+  position: fixed;
   top: 0;
   height: calc(12px * 2 + 42px);
 }
 
-/* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 6 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .headerLogo {
   margin: 0;
 }
 
-/* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 8 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .headerLogo img {
   height: calc(12px * 2 + 42px);
+  position: relative;
   width: auto;
+  z-index: 3;
 }
 
-/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 14 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger {
   cursor: pointer;
   display: block;
@@ -547,9 +548,9 @@ li {
 /* ナビ開いてる時のボタン */
 }
 
-/* line 23 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger span {
-  background: #fff;
+  background: #0e213f;
   display: block;
   height: 2px;
   left: 8px;
@@ -560,28 +561,28 @@ li {
   width: 25px;
 }
 
-/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger span:nth-child(1) {
   top: 10px;
 }
 
-/* line 35 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 36 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger span:nth-child(2) {
   top: 20px;
 }
 
-/* line 37 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 38 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger span:nth-child(3) {
   top: 30px;
 }
 
-/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-
 /* line 41 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+
+/* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger.active span:nth-child(1) {
-  background: #fff;
+  background: #0e213f;
   left: 8px;
   top: 19px;
   transform: rotate(-45deg);
@@ -589,17 +590,17 @@ li {
   -moz-transform: rotate(-45deg);
 }
 
-/* line 49 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger.active span:nth-child(2),
 .hamburger.active span:nth-child(3) {
-  background: #fff;
+  background: #0e213f;
   top: 19px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
 }
 
-/* line 57 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 58 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu {
   background: #eccd37;
   color: #0e213f;
@@ -607,7 +608,7 @@ li {
   opacity: 0;
   position: fixed;
   text-align: center;
-  top: calc(12px * 2 + 42px);
+  top: 0;
   transition: 0.6s ease;
   visibility: hidden;
   width: 100%;
@@ -615,14 +616,16 @@ li {
 /* このクラスを、jQueryで付与・削除する */
 }
 
-/* line 69 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 70 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul {
   margin: 0 auto;
   padding: 0;
+  position: relative;
+  top: calc(12px * 2 + 42px);
   width: 100%;
 }
 
-/* line 73 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 76 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li {
   list-style-type: none;
   padding: 0;
@@ -630,17 +633,17 @@ li {
   transition: 0.4s all;
 }
 
-/* line 78 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 81 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li:last-child {
   padding-bottom: 0;
 }
 
-/* line 80 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 83 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li:hover {
   background: #fcf17e;
 }
 
-/* line 82 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 85 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li a {
   color: #0e213f;
   display: block;
@@ -648,7 +651,7 @@ li {
   text-decoration: none;
 }
 
-/* line 88 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 91 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu.active {
   opacity: 100;
   visibility: visible;
@@ -656,7 +659,7 @@ li {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 90 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 93 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
