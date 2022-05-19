@@ -79,22 +79,32 @@
       &:last-child
         padding-bottom: 0;
       & a
+        border-bottom: 2px solid #a1b1c4
         color: c-txt-1;
         display: inline-block;
-        padding 2rem 0
-        text-decoration: none;
-        width: 15%
-        &::after
-          border-bottom: 2px solid #a1b1c4
-          content ""
-          display block
-          padding-bottom 1rem
-          transition: width .6s;
-          width 0
-        &:hover::after
-          width 100%
+        padding 4rem 0 1rem 0
+        width 45%
+
   /* このクラスを、jQueryで付与・削除する */
   &.active
     height 100vh
     opacity: 100;
     visibility: visible;
+
++ls()
+  .hamburgerMenu
+    & ul
+      & li
+        & a
+          border-bottom none
+          display: inline-block;
+          width 15%
+          &::after
+            border-bottom: 2px solid #a1b1c4
+            content ""
+            display block
+            padding-bottom 1rem
+            transition: width .6s;
+            width 0
+          &:hover::after
+            width 100%

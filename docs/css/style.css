@@ -638,38 +638,53 @@ li {
 
 /* line 81 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li a {
+  border-bottom: 2px solid #a1b1c4;
   color: #0e213f;
   display: inline-block;
-  padding: 2rem 0;
-  text-decoration: none;
-  width: 15%;
+  padding: 4rem 0 1rem 0;
+  width: 45%;
 }
 
-/* line 87 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-.hamburgerMenu ul li a::after {
-  border-bottom: 2px solid #a1b1c4;
-  content: "";
-  display: block;
-  padding-bottom: 1rem;
-  transition: width 0.6s;
-  width: 0;
-}
-
-/* line 94 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-.hamburgerMenu ul li a:hover::after {
-  width: 100%;
-}
-
-/* line 97 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 89 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu.active {
   height: 100vh;
   opacity: 100;
   visibility: visible;
 }
+@media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 95 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+
+/* line 96 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+
+/* line 97 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+
+/* line 98 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+  .hamburgerMenu ul li a {
+    border-bottom: none;
+    display: inline-block;
+    width: 15%;
+  }
+
+/* line 102 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+  .hamburgerMenu ul li a::after {
+    border-bottom: 2px solid #a1b1c4;
+    content: "";
+    display: block;
+    padding-bottom: 1rem;
+    transition: width 0.6s;
+    width: 0;
+  }
+
+/* line 109 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+  .hamburgerMenu ul li a:hover::after {
+    width: 100%;
+  }
+}
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 100 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 110 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
