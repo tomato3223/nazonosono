@@ -516,9 +516,9 @@ li {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .header {
+  height: calc(12px * 2 + 42px);
   position: fixed;
   top: 0;
-  height: calc(12px * 2 + 42px);
 }
 
 /* line 6 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
