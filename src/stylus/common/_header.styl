@@ -56,7 +56,7 @@
         -moz-transform: rotate(45deg);
 
 .hamburgerMenu
-  background: c-gold;
+  background: c-bg-1;
   color: c-txt-1;
   left: 0;
   opacity: 0;
@@ -70,23 +70,29 @@
   & ul
     margin: 0 auto;
     padding: 0;
-    position relative
-    top: calc(12px * 2 + 42px)
+    margin-top: calc(12px * 2 + 42px)
     width: 100%;
     & li
       list-style-type: none;
-      padding: 0;
-      width: 100%;
       transition: .4s all;
+      width: 100%;
       &:last-child
         padding-bottom: 0;
-      &:hover
-        background: c-yellow;
       & a
         color: c-txt-1;
-        display: block;
-        padding: 2em 0;
-        text-decoration :none;
+        display: inline-block;
+        padding 2rem 0
+        text-decoration: none;
+        width: 15%
+        &::after
+          border-bottom: 2px solid #a1b1c4
+          content ""
+          display block
+          padding-bottom 1rem
+          transition: width .6s;
+          width 0
+        &:hover::after
+          width 100%
   /* このクラスを、jQueryで付与・削除する */
   &.active
     opacity: 100;
