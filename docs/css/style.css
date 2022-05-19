@@ -694,16 +694,30 @@ li {
 }
 
 /* line 4 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+.hero {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+.hero img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 3vw;
 }
 
-/* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 15 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 0 3vw 3vw;
 }
 
-/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 18 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
