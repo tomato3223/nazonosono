@@ -443,13 +443,13 @@ html {
 
 /* line 4 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 body {
-  background-color: #fff;
   color: #0d223f;
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 0.05em;
   margin: 0;
+  background-repeat: repeat-y;
 }
 @media print, screen and (min-width: 520px) {
 
