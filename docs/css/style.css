@@ -721,11 +721,12 @@ li {
 .hero {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
   position: relative;
   z-index: -1;
 }
 
-/* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero_icon1 {
   width: 220%;
   bottom: 20rem;
@@ -734,7 +735,7 @@ li {
   transform: translateX(-50%);
 }
 
-/* line 15 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 16 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero_icon2 {
   bottom: 16rem;
   height: 10%;
@@ -744,7 +745,7 @@ li {
   transform: translateX(-50%);
 }
 
-/* line 22 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 23 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__msg {
   font-size: 4.5vw;
   letter-spacing: 0.7rem;
@@ -755,7 +756,7 @@ li {
   width: 100vw;
 }
 
-/* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__scroll {
   bottom: 4rem;
   font-size: 3.5vw;
@@ -764,7 +765,7 @@ li {
   left: 50%;
 }
 
-/* line 37 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 38 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .triangle {
   bottom: 2rem;
   border-top: 1.5rem solid #152a42;
@@ -777,25 +778,25 @@ li {
   position: absolute;
 }
 
-/* line 48 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 49 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 3vw;
 }
 
-/* line 51 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 52 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 0 3vw 3vw;
 }
 
-/* line 54 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 55 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 58 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-
 /* line 59 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+
+/* line 60 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
     top: 2rem;
   }
