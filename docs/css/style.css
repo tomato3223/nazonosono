@@ -728,10 +728,10 @@ li {
 
 /* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero_icon1 {
-  bottom: 20rem;
   left: 70%;
   position: absolute;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 220%;
   z-index: -1;
 }
