@@ -736,12 +736,12 @@ li {
 
 /* line 15 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero_icon2 {
-  bottom: 13rem;
+  bottom: 16rem;
   height: 10%;
   left: 50%;
   width: auto;
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 }
 
 /* line 22 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
@@ -757,10 +757,10 @@ li {
 
 /* line 30 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__scroll {
-  bottom: 3rem;
+  bottom: 4rem;
   font-size: 3.5vw;
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   left: 50%;
 }
 
