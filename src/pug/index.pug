@@ -6,11 +6,12 @@ block vars
   - var page = pages[key]
 
 block contents
-    body
+  div.hero
     p(class="hero__msg")
       | 上方謎の園を通して<br>
       | 謎解きの文化を<br>
       | 未来に継承する
+    img(class="hero_icon" src=imgPath+"/top/kamigata_sensu.png" alt="ヒーローアイコン")
   section(class="topAbout")
     h2.ttl--2 ABOUT
     img(class="topLogo" src=imgPath+"/common/kamigata_logo.png" alt="ロゴ")
