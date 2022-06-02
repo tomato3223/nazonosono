@@ -1,15 +1,28 @@
 .ttl--1
-  font-family: f-ttl, sans-serif
-  font-size: 130%
+  font-size: 170%
   font-weight: inherit
 
 .ttl--2
-  font-family: f-ttl, sans-serif
-  font-size: 110%
+  align-items: center;
+  display: flex
+  font-size: 80%
   font-weight: inherit
+  justify-content: center;
+  &:before
+    border-top: 0.1rem solid
+    content: ""
+    width: 1em
+    margin-right: 1em
+  &:after
+    border-top: 0.1rem solid
+    content: ""
+    width: 1em
+    margin-left: 1em
 
 +ls()
   .ttl--1
     font-size: 200%
   .ttl--2
     font-size: 180%
+  .ttl--3
+    font-size: 150%

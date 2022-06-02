@@ -24,31 +24,53 @@
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
 .ttl--1 {
-  font-family: f-ttl, sans-serif;
-  font-size: 130%;
+  font-size: 170%;
   font-weight: inherit;
 }
 
-/* line 6 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 5 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
 .ttl--2 {
-  font-family: f-ttl, sans-serif;
-  font-size: 110%;
+  align-items: center;
+  display: flex;
+  font-size: 80%;
   font-weight: inherit;
+  justify-content: center;
+}
+
+/* line 11 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+.ttl--2:before {
+  border-top: 0.1rem solid;
+  content: "";
+  width: 1em;
+  margin-right: 1em;
+}
+
+/* line 16 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+.ttl--2:after {
+  border-top: 0.1rem solid;
+  content: "";
+  width: 1em;
+  margin-left: 1em;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 12 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 23 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
   .ttl--1 {
     font-size: 200%;
   }
 
-/* line 14 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 25 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
   .ttl--2 {
     font-size: 180%;
   }
+
+/* line 27 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+  .ttl--3 {
+    font-size: 150%;
+  }
 }
 
-/* line 15 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 28 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_btn.styl */
 
@@ -716,51 +738,52 @@ li {
 
 /* line 15 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__msg {
-  font-size: 8vw;
-  left: 50%;
+  font-size: 4.5vw;
+  letter-spacing: 0.8rem;
+  line-height: 7rem;
   position: absolute;
-  top: 10rem;
-  transform: translateX(-50%);
+  text-align: left;
+  top: 20rem;
   width: 100vw;
 }
 
-/* line 22 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 23 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__scroll {
   font-size: 3vw;
 }
 
-/* line 26 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 27 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .triangle {
   bottom: 5rem;
   border-top: 1.5rem solid #152a42;
   border-right: 1rem solid transparent;
   border-left: 1rem solid transparent;
   height: 0rem;
-  right: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 0rem;
   position: absolute;
 }
 
-/* line 37 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 38 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 3vw;
 }
 
-/* line 40 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 41 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 0 3vw 3vw;
 }
 
-/* line 43 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 44 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 47 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
-
 /* line 48 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+
+/* line 49 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
     top: 2rem;
   }
