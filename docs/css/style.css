@@ -41,16 +41,16 @@
 .ttl--2:before {
   border-top: 0.1rem solid;
   content: "";
-  width: 1em;
   margin-right: 1em;
+  width: 1em;
 }
 
 /* line 16 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_heading.styl */
 .ttl--2:after {
   border-top: 0.1rem solid;
   content: "";
-  width: 1em;
   margin-left: 1em;
+  width: 1em;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
@@ -719,20 +719,20 @@ li {
 
 /* line 4 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero {
-  width: 100vw;
   height: 100vh;
   overflow-x: hidden;
   position: relative;
+  width: 100vw;
   z-index: -1;
 }
 
 /* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero_icon1 {
-  width: 220%;
   bottom: 20rem;
   left: 70%;
   position: absolute;
   transform: translateX(-50%);
+  width: 220%;
   z-index: -1;
 }
 
@@ -741,9 +741,9 @@ li {
   bottom: 16rem;
   height: 10%;
   left: 50%;
-  width: auto;
   position: absolute;
   transform: translateX(-50%);
+  width: auto;
 }
 
 /* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
@@ -761,22 +761,22 @@ li {
 .hero__scroll {
   bottom: 4rem;
   font-size: 3.5vw;
+  left: 50%;
   position: absolute;
   transform: translateX(-50%);
-  left: 50%;
 }
 
 /* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .triangle {
   bottom: 2rem;
-  border-top: 1.5rem solid #152a42;
-  border-right: 1rem solid transparent;
   border-left: 1rem solid transparent;
-  height: 0rem;
+  border-right: 1rem solid transparent;
+  border-top: 1.5rem solid #152a42;
+  height: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 0rem;
   position: absolute;
+  transform: translate(-50%, -50%);
+  width: 0;
 }
 
 /* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
