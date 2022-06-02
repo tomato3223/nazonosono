@@ -703,15 +703,18 @@ li {
 }
 
 /* line 9 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
-.hero img.hero_icon {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.hero img.hero_icon1 {
   width: 100%;
-  padding-left: 10rem;
+  padding-top: 30rem;
 }
 
-/* line 14 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 12 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+.hero img.hero_icon2 {
+  height: 10%;
+  width: auto;
+}
+
+/* line 15 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__msg {
   font-size: 8vw;
   left: 50%;
@@ -722,24 +725,39 @@ li {
 }
 
 /* line 22 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+.hero__scroll {
+  font-size: 4vw;
+}
+
+/* line 25 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+.triangle {
+  margin: 0 auto;
+  height: 0rem;
+  width: 0rem;
+  border-top: 15rem solid #152a42;
+  border-right: 10rem solid transparent;
+  border-left: 10rem solid transparent;
+}
+
+/* line 33 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 3vw;
 }
 
-/* line 25 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 36 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 0 3vw 3vw;
 }
 
-/* line 28 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 39 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 32 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 43 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 
-/* line 33 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 44 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
     top: 2rem;
   }
