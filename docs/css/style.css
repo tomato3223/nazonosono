@@ -727,16 +727,16 @@ li {
 
 /* line 9 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero_icon1 {
-  width: 250%;
-  bottom: 15rem;
-  left: 80%;
+  width: 220%;
+  bottom: 20rem;
+  left: 70%;
   position: absolute;
   transform: translateX(-50%);
 }
 
 /* line 15 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero_icon2 {
-  bottom: 10rem;
+  bottom: 13rem;
   height: 10%;
   left: 50%;
   width: auto;
@@ -747,7 +747,7 @@ li {
 /* line 22 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__msg {
   font-size: 4.5vw;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.7rem;
   line-height: 5rem;
   position: absolute;
   text-align: left;
