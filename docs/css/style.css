@@ -1,5 +1,5 @@
 
-/* line 22 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\style.styl */
+/* line 23 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\style.styl */
 
 /* line 1 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
@@ -86,6 +86,15 @@
 }
 
 /* line 5 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_line.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_line.styl */
+.line {
+  background: linear-gradient(transparent 70%, #ebcd37 70%);
+}
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_line.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_sanitize.styl */
 
