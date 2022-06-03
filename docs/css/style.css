@@ -85,11 +85,12 @@
 }
 
 /* line 4 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
-.btn--box span {
-  vertical-align: bottom;
+.btn--box .material-symbols-outlined {
+  font-size: 3rem;
+  vertical-align: -1rem;
 }
 
-/* line 5 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
+/* line 6 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_line.styl */
 
