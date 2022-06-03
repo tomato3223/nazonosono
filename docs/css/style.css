@@ -1,12 +1,12 @@
 
 /* line 23 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\style.styl */
 
-/* line 1 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : C:\Users\nao\AppData\Local\Prepros\app-7.4.0\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\style.styl */
 @charset "UTF-8";
 
-/* line 297 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
+/* line 297 : C:\Users\nao\AppData\Local\Prepros\app-7.4.0\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_path.styl */
 
@@ -556,12 +556,12 @@ li {
 
 /* line 6 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .headerLogo {
-  margin: 1rem 1rem;
+  margin: 1rem;
 }
 
 /* line 8 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .headerLogo img {
-  height: calc(12px * 2 + 42px);
+  height: calc(12px * 2 + 42px - 1rem * 2);
   position: relative;
   width: auto;
   z-index: 3;
