@@ -820,6 +820,14 @@ li {
     line-height: 8vh;
     padding-left: 2rem;
   }
+
+/* line 67 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+  .hero img.hero__sensu {
+    left: 80%;
+    position: absolute;
+    top: 50%;
+    width: 120%;
+  }
 }
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
