@@ -1,5 +1,5 @@
 
-/* line 23 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\style.styl */
+/* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\style.styl */
 
 /* line 1 : C:\Users\nao\AppData\Local\Prepros\app-7.4.0\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
@@ -15,6 +15,10 @@
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_color.styl */
 
 /* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_color.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_size.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_size.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\mixin\_mq.styl */
 
@@ -549,7 +553,7 @@ li {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .header {
-  height: calc(1.2rem * 2 + 4.2rem);
+  height: 6.6rem;
   position: fixed;
   top: 0;
 }
@@ -562,7 +566,7 @@ li {
 
 /* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .headerLogo img {
-  height: calc(1.2rem * 2 + 4.2rem - 1rem * 2);
+  height: 4.6rem;
   position: relative;
   width: auto;
   z-index: 3;
@@ -654,7 +658,7 @@ li {
 .hamburgerMenu ul {
   margin: 0 auto;
   padding: 0;
-  margin-top: calc(1.2rem * 2 + 4.2rem);
+  margin-top: 6.6rem;
   width: 100%;
 }
 
