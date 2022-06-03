@@ -799,7 +799,7 @@ li {
 /* line 51 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .contents {
   position: relative;
-  padding: 1rem;
+  padding: 1rem 1rem 3rem 1rem;
   background-color: #fff;
   border-radius: 0.5rem;
   border: 0.2rem solid;
