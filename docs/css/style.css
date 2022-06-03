@@ -81,16 +81,17 @@
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_btn.styl */
 .btn--box {
   border: 0.2rem solid #152a42;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 2rem;
 }
 
 /* line 4 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_btn.styl */
 .btn--box .material-symbols-outlined {
   font-size: 3rem;
+  padding-left: 2rem;
   vertical-align: -1rem;
 }
 
-/* line 6 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_btn.styl */
+/* line 7 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_btn.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_line.styl */
 
