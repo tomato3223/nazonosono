@@ -557,20 +557,20 @@ li {
   height: 6.6rem;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
-/* line 6 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .headerLogo {
   margin: 0;
   padding: 1rem;
 }
 
-/* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .headerLogo img {
   height: 4.6rem;
   position: relative;
   width: auto;
-  z-index: 3;
 }
 
 /* line 15 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
@@ -583,7 +583,7 @@ li {
   text-align: center;
   top: 1.2rem;
   width: 4.2rem;
-  z-index: 3;
+  z-index: 10;
 /* ナビ開いてる時のボタン */
 }
 
@@ -625,21 +625,17 @@ li {
   left: 0.8rem;
   top: 1.9rem;
   transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
 }
 
-/* line 51 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 49 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger.active span:nth-child(2),
 .hamburger.active span:nth-child(3) {
   background: #152a42;
   top: 1.9rem;
   transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
 }
 
-/* line 59 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 55 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu {
   background: #fff;
   color: #152a42;
@@ -651,11 +647,11 @@ li {
   transition: 0.6s ease;
   visibility: hidden;
   width: 100%;
-  z-index: 2;
+  z-index: 5;
 /* このクラスを、jQueryで付与・削除する */
 }
 
-/* line 71 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 67 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul {
   margin: 0 auto;
   padding: 0;
@@ -663,19 +659,19 @@ li {
   width: 100%;
 }
 
-/* line 76 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 72 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li {
   list-style-type: none;
   transition: 0.4s all;
   width: 100%;
 }
 
-/* line 80 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 76 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li:last-child {
   padding-bottom: 0;
 }
 
-/* line 82 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 78 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu ul li a {
   border-bottom: 2px solid #a1b1c4;
   color: #152a42;
@@ -684,7 +680,7 @@ li {
   width: 45%;
 }
 
-/* line 90 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 86 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu.active {
   height: 100vh;
   opacity: 100;
@@ -692,20 +688,20 @@ li {
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 96 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 92 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 97 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 93 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 98 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 94 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 99 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 95 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a {
     border-bottom: none;
     display: inline-block;
     width: 15%;
   }
 
-/* line 103 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 99 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a::after {
     border-bottom: 0.2rem solid #a1b1c4;
     content: "";
@@ -715,7 +711,7 @@ li {
     width: 0;
   }
 
-/* line 110 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 106 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a:hover::after {
     width: 100%;
   }
@@ -723,23 +719,25 @@ li {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 111 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 107 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .top__main {
   overflow-x: hidden;
+  position: relative;
   text-align: center;
+  z-index: 0;
 }
 
-/* line 5 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero {
   position: relative;
-  z-index: -1;
+  z-index: -5;
 }
 
-/* line 8 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__msg {
   font-size: 4.5vw;
   letter-spacing: 0.7rem;
@@ -751,43 +749,44 @@ li {
   transform: translateY(-50%);
 }
 
-/* line 17 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 19 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero__sensu {
   left: 70%;
   position: absolute;
   top: 55%;
   transform: translate(-50%, -50%);
   width: 220%;
-  z-index: -1;
+  z-index: -5;
 }
 
-/* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 26 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero__logoLarge {
-  bottom: 10rem;
+  bottom: 10%;
   height: 10%;
   left: 50%;
   position: absolute;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: auto;
 }
 
-/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-.scroll {
-  bottom: 2rem;
+/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+.hero__scroll {
+  bottom: 3rem;
   cursor: pointer;
   left: 50%;
   position: absolute;
+  z-index: -1;
 }
 
-/* line 37 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-.scroll__txt {
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+.hero__scroll__txt {
   font-size: 3.5vw;
   margin: 0.5rem auto;
   transform: translateX(-50%);
 }
 
-/* line 41 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-.scroll__triangle {
+/* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+.hero__scroll__triangle {
   border-left: 1rem solid transparent;
   border-right: 1rem solid transparent;
   border-top: 1.5rem solid #152a42;
@@ -796,25 +795,25 @@ li {
   width: 0;
 }
 
-/* line 49 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 51 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 3vw;
 }
 
-/* line 52 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 54 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 0 3vw 3vw;
 }
 
-/* line 55 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 57 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 59 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 61 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
-/* line 60 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 62 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
     font-size: 2vw;
     letter-spacing: 1rem;
@@ -822,7 +821,7 @@ li {
     padding-left: 2rem;
   }
 
-/* line 65 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 67 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero img.hero__sensu {
     left: 80%;
     position: absolute;
