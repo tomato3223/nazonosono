@@ -817,7 +817,10 @@ li {
 
 /* line 64 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
-    top: 2rem;
+    font-size: 2vw;
+    letter-spacing: 1rem;
+    line-height: 8vh;
+    padding-left: 2rem;
   }
 }
 
