@@ -737,18 +737,31 @@ li {
 }
 
 /* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-.hero img.hero_icon1 {
+.hero__msg {
+  font-size: 4.5vw;
+  letter-spacing: 0.7rem;
+  line-height: 5vh;
+  padding-left: 1rem;
+  position: relative;
+  text-align: left;
+  top: 25%;
+  transform: translateY(-50%);
+  width: 100vw;
+}
+
+/* line 20 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+.hero img.hero__sensu {
   left: 70%;
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
   width: 220%;
   z-index: -1;
 }
 
-/* line 17 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-.hero img.hero_icon2 {
-  bottom: 16rem;
+/* line 27 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+.hero img.hero__logoLarge {
+  bottom: 10rem;
   height: 10%;
   left: 50%;
   position: absolute;
@@ -756,28 +769,17 @@ li {
   width: auto;
 }
 
-/* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-.hero__msg {
-  font-size: 4.5vw;
-  letter-spacing: 0.7rem;
-  line-height: 5rem;
-  padding-left: 1rem;
-  position: absolute;
-  text-align: left;
-  top: 15rem;
-  width: 100vw;
-}
-
-/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__scroll {
   bottom: 4rem;
   font-size: 3.5vw;
   left: 50%;
+  margin: 1rem auto;
   position: absolute;
   transform: translateX(-50%);
 }
 
-/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .triangle {
   bottom: 2rem;
   border-left: 1rem solid transparent;
@@ -790,25 +792,25 @@ li {
   width: 0;
 }
 
-/* line 51 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 53 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 3vw;
 }
 
-/* line 54 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 56 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 0 3vw 3vw;
 }
 
-/* line 57 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 59 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 61 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 63 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
-/* line 62 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 64 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
     top: 2rem;
   }
