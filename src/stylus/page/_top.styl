@@ -28,24 +28,23 @@
     position: absolute;
     transform translateX(-50%)
     width: auto
-  &__scroll
-    bottom 4rem
-    font-size: 3.5vw
-    left: 50%
-    margin: 1rem auto
-    position: absolute;
-    transform translateX(-50%)
 
-.triangle
+.scroll
   bottom 2rem
-  border-left: 1rem solid transparent
-  border-right: 1rem solid transparent
-  border-top: 1.5rem solid c-txt-1
-  height: 0
+  cursor pointer
   left: 50%
-  position: absolute
-  transform translate(-50%, -50%)
-  width: 0
+  position: absolute;
+  &__txt
+    font-size: 3.5vw
+    margin .5rem auto
+    transform translateX(-50%)
+  &__triangle
+    border-left: 1rem solid transparent
+    border-right: 1rem solid transparent
+    border-top: 1.5rem solid c-txt-1
+    height: 0
+    transform translateX(-50%)
+    width: 0
 
 .topAbout
   padding 3vw

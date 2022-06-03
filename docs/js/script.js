@@ -18,3 +18,16 @@ $(function () {
 $(window).resize(function () {
   $('.hero').height($(window).innerHeight());
 });
+
+// スクロール
+$(window).on('load resize', function() {
+  //ウィンドウの高さを取得する
+  var targetY = $(window).innerHeight();
+  //スクロールをクリックするとウィンドウの高さ分、下にスクロールする
+  $('.scroll').on('click', function() {
+    $("html, body").stop().animate({
+      scrollTop: targetY
+    }, 500, 'swing');
+    return false;
+  });
+});
