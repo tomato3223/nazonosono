@@ -729,13 +729,13 @@ li {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .top__main {
+  overflow-x: hidden;
   text-align: center;
 }
 
-/* line 4 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 5 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero {
   height: 100vh;
-  overflow-x: hidden;
   position: relative;
   z-index: -1;
 }
