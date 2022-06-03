@@ -741,7 +741,7 @@ li {
 .hero__msg {
   font-size: 4.5vw;
   letter-spacing: 0.7rem;
-  line-height: 5vh;
+  line-height: 6vh;
   padding-left: 1rem;
   position: relative;
   text-align: left;
@@ -796,24 +796,70 @@ li {
 }
 
 /* line 51 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+.contents {
+  position: relative;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  border: 0.2rem solid;
+  border-color: #152a42;
+}
+
+/* line 58 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+.contents:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  right: 4rem;
+  top: -2rem;
+  background-color: #fff;
+  border-left: 2rem solid #152a42;
+  border-top: 2rem solid #152a42;
+  border-right: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
+}
+
+/* line 73 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+.contents:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  right: 5.5rem;
+  top: -2rem;
+  background-color: #fff;
+  border-left: 2rem solid transparent;
+  border-top: 2rem solid #fff;
+  border-right: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
+}
+
+/* line 89 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 3vw;
 }
 
-/* line 54 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 92 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 0 3vw 3vw;
 }
 
-/* line 57 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 95 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 61 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 99 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 
-/* line 62 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 100 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
     font-size: 2vw;
     letter-spacing: 1rem;
@@ -821,7 +867,7 @@ li {
     padding-left: 2rem;
   }
 
-/* line 67 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 105 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
   .hero img.hero__sensu {
     left: 80%;
     position: absolute;
