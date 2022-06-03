@@ -753,7 +753,7 @@ li {
 .hero img.hero__sensu {
   left: 70%;
   position: absolute;
-  top: 45%;
+  top: 48%;
   transform: translate(-50%, -50%);
   width: 220%;
   z-index: -5;
@@ -761,7 +761,7 @@ li {
 
 /* line 26 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero__logoLarge {
-  bottom: 15%;
+  bottom: 13%;
   height: 10%;
   left: 50%;
   position: absolute;
@@ -780,16 +780,16 @@ li {
 
 /* line 39 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__scroll__txt {
-  font-size: 2.5vw;
+  font-size: 2.7vw;
   margin: 0.5rem auto;
   transform: translateX(-50%);
 }
 
 /* line 43 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__scroll__triangle {
-  border-left: 0.5rem solid transparent;
-  border-right: 0.5rem solid transparent;
-  border-top: 0.75rem solid #152a42;
+  border-left: 0.7rem solid transparent;
+  border-right: 0.7rem solid transparent;
+  border-top: 1.05rem solid #152a42;
   height: 0;
   transform: translateX(-50%);
   width: 0;
