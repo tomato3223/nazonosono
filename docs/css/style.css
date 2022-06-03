@@ -735,12 +735,11 @@ li {
 
 /* line 5 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero {
-  height: 100vh;
   position: relative;
   z-index: -1;
 }
 
-/* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 8 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__msg {
   font-size: 4.5vw;
   letter-spacing: 0.7rem;
@@ -752,7 +751,7 @@ li {
   transform: translateY(-50%);
 }
 
-/* line 18 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 17 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero__sensu {
   left: 70%;
   position: absolute;
@@ -762,7 +761,7 @@ li {
   z-index: -1;
 }
 
-/* line 25 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero img.hero__logoLarge {
   bottom: 10rem;
   height: 10%;
@@ -772,7 +771,7 @@ li {
   width: auto;
 }
 
-/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__scroll {
   bottom: 4rem;
   font-size: 3.5vw;
@@ -782,7 +781,7 @@ li {
   transform: translateX(-50%);
 }
 
-/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .triangle {
   bottom: 2rem;
   border-left: 1rem solid transparent;
@@ -795,25 +794,25 @@ li {
   width: 0;
 }
 
-/* line 51 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 3vw;
 }
 
-/* line 54 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 53 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 0 3vw 3vw;
 }
 
-/* line 57 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 56 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 61 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 60 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
-/* line 62 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 61 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
     font-size: 2vw;
     letter-spacing: 1rem;
@@ -821,7 +820,7 @@ li {
     padding-left: 2rem;
   }
 
-/* line 67 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 66 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero img.hero__sensu {
     left: 80%;
     position: absolute;
