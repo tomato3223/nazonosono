@@ -760,13 +760,14 @@ li {
   font-size: 4.5vw;
   letter-spacing: 0.7rem;
   line-height: 5rem;
+  padding-left: 1rem;
   position: absolute;
   text-align: left;
   top: 15rem;
   width: 100vw;
 }
 
-/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .hero__scroll {
   bottom: 4rem;
   font-size: 3.5vw;
@@ -775,7 +776,7 @@ li {
   transform: translateX(-50%);
 }
 
-/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .triangle {
   bottom: 2rem;
   border-left: 1rem solid transparent;
@@ -788,25 +789,25 @@ li {
   width: 0;
 }
 
-/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 51 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 3vw;
 }
 
-/* line 53 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 54 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 0 3vw 3vw;
 }
 
-/* line 56 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 57 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 60 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-
 /* line 61 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+
+/* line 62 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
     top: 2rem;
   }
