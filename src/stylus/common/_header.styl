@@ -1,3 +1,12 @@
+logoLen = 4.2rem
+logoLenPc = 5rem
+logoTop = 1.2rem
+logoTopPc = 1.5rem
+barLen = 1.7rem
+barLenPc = 1.9rem
+headerHeight = logoTop * 2 + logoLen
+headerHeightPc = logoTopPc * 2 + logoLenPc
+
 .header
   height headerHeight
   position: fixed;
@@ -16,41 +25,43 @@
   background center/100% url(imgPath+"/common/hukidashi_menu.png")
   cursor: pointer;
   display : block;
-  height: 4.2rem;
+  height: logoLen;
   position: fixed;
-  right: 1.3rem;
+  right: logoTop;
   text-align: center;
-  top: 1.2rem;
-  width: 4.2rem;
+  top: logoTop;
+  width: logoLen;
   z-index: 10;
   & span
     background: c-bg-1;
     display: block;
     height: .15rem;
-    left: 1.2rem;
+    right: logoTop;
     position: absolute;
     transition: 0.3s ease-in-out;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
-    width : 1.8rem;
+    width : barLen;
     &:nth-child(1)
-      top 1.2rem
+      top logoTop
     &:nth-child(2)
-      top 2rem
+      top logoTop + .8rem
     &:nth-child(3)
-      top 2.8rem
+      top logoTop + .8rem * 2
   /* ナビ開いてる時のボタン */
   &.active
     & span
+      height: .15rem;
+      right: logoTop;
+      width : barLen;
       &:nth-child(1)
         background: c-bg-1;
-        left: 1.2rem;
-        top: 2.1rem;
+        top: (logoLen / 2);
         transform: rotate(-45deg);
       &:nth-child(2),
       &:nth-child(3)
         background: c-bg-1;
-        top: 2.1rem;
+        top: (logoLen / 2);
         transform: rotate(45deg);
 
 .hamburgerMenu
@@ -93,6 +104,32 @@
     visibility: visible;
 
 +ls()
+  .header
+    height headerHeightPc
+  .headerLogo
+    & img
+      height headerHeightPc - 1rem * 2
+  .hamburger
+    height: logoLenPc;
+    width: logoLenPc;
+    & span
+      right logoTopPc
+      width : barLenPc;
+      &:nth-child(1)
+        top logoTopPc
+      &:nth-child(2)
+        top logoTopPc + .9rem
+      &:nth-child(3)
+        top logoTopPc + .9rem * 2
+    &.active
+      & span
+        right: logoTopPc;
+        width : barLenPc;
+        &:nth-child(1)
+          top: (logoLenPc / 2);
+        &:nth-child(2),
+        &:nth-child(3)
+          top: (logoLenPc / 2);
   .hamburgerMenu
     & ul
       & li
