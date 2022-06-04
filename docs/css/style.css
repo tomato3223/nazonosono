@@ -14,7 +14,7 @@
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_color.styl */
 
-/* line 11 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_color.styl */
+/* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\setting\_color.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\mixin\_mq.styl */
 
@@ -516,7 +516,7 @@ a {
 
 /* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 a:hover {
-  color: #a1b1c4;
+  color: c-gray;
 }
 
 /* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
@@ -771,7 +771,7 @@ li {
 
 /* line 141 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a::after {
-    border-bottom: 0.2rem solid #a1b1c4;
+    border-bottom: 0.2rem solid #152a42;
     content: "";
     display: block;
     padding-bottom: 1rem;
