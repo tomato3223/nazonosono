@@ -56,7 +56,7 @@
   margin-left: 1em;
   width: 1em;
 }
-@media print, screen and (orientation: landscape) and (min-width: 1024px) {
+@media print, screen and (orientation: landscape) {
 
 /* line 23 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_heading.styl */
   .ttl--1 {
@@ -687,7 +687,7 @@ li {
   opacity: 100;
   visibility: visible;
 }
-@media print, screen and (orientation: landscape) and (min-width: 1024px) {
+@media print, screen and (orientation: landscape) {
 
 /* line 92 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
@@ -856,7 +856,7 @@ li {
 .topLogo {
   width: 20%;
 }
-@media print, screen and (orientation: landscape) and (min-width: 1024px) {
+@media print, screen and (orientation: landscape) {
 
 /* line 99 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
