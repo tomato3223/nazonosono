@@ -76,11 +76,14 @@
       &:last-child
         padding-bottom: 0;
       & a
-        border-bottom: 2px solid c-gray
         color: c-txt-1;
         display: inline-block;
-        padding 4rem 0 .2rem 0
+        margin 4rem 0 .2rem
+        padding 0
         width 45%
+        &:active, :hover
+          background-color c-txt-1
+          color c-bg-1
 
   /* このクラスを、jQueryで付与・削除する */
   &.active
@@ -95,6 +98,7 @@
         & a
           border-bottom none
           display: inline-block;
+          padding-top 1rem
           width 15%
           &::after
             border-bottom: .2rem solid c-gray
