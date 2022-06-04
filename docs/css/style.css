@@ -875,6 +875,16 @@ li {
     top: 50%;
     width: 120%;
   }
+
+/* line 110 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+  .hero__scroll {
+    bottom: 7rem;
+  }
+
+/* line 112 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+  .hero__scroll__txt {
+    font-size: 1.5vw;
+  }
 }
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
