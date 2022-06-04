@@ -13,6 +13,7 @@
     width auto
 
 .hamburger
+  background center/100% url(imgPath+"/common/hukidashi_menu.png")
   cursor: pointer;
   display : block;
   height: 4.2rem;
@@ -23,21 +24,21 @@
   width: 4.2rem;
   z-index: 10;
   & span
-    background: c-txt-1;
+    background: c-bg-1;
     display: block;
-    height: .2rem;
-    left: .8rem;
+    height: .15rem;
+    left: 1.2rem;
     position: absolute;
     transition: 0.3s ease-in-out;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
-    width : 2.5rem;
+    width : 1.8rem;
     &:nth-child(1)
-      top 1rem
+      top 1.2rem
     &:nth-child(2)
       top 2rem
     &:nth-child(3)
-      top 3rem
+      top 2.8rem
   /* ナビ開いてる時のボタン */
   &.active
     & span
