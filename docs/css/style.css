@@ -623,17 +623,17 @@ li {
 
 /* line 45 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger.active span:nth-child(1) {
-  background: #152a42;
-  left: 0.8rem;
-  top: 1.9rem;
+  background: #fff;
+  left: 1.2rem;
+  top: 2.1rem;
   transform: rotate(-45deg);
 }
 
 /* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburger.active span:nth-child(2),
 .hamburger.active span:nth-child(3) {
-  background: #152a42;
-  top: 1.9rem;
+  background: #fff;
+  top: 2.1rem;
   transform: rotate(45deg);
 }
 
