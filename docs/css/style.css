@@ -841,15 +841,20 @@ li {
   margin: 0;
   text-align: center;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+.copyright {
+  margin: 0;
+}
 @media print, screen and (orientation: landscape) {
 
-/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
   .footer {
     font-size: 1.3rem;
   }
 }
 
-/* line 11 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 14 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
