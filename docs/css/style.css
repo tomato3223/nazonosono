@@ -830,7 +830,6 @@ li {
   background-color: #152a42;
   color: #fff;
   font-size: 1rem;
-  font-weight: 300;
   height: 4vh;
   letter-spacing: 0.15rem;
   margin: 0;
@@ -839,13 +838,13 @@ li {
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 13 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 12 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_footer.styl */
   .copyright {
     font-size: 1.3rem;
   }
 }
 
-/* line 14 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 13 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_footer.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 
