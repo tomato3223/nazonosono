@@ -865,7 +865,7 @@ li {
 
 /* line 51 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .contents {
-  background: no-repeat center/100% 100% url("../img/common/hukidashi_big.png");
+  background: no-repeat center/100% 100% url("../img/common/hukidashi_big.svg");
   margin: 0 auto;
   max-width: 40rem;
   padding: 3rem 1rem;
