@@ -826,7 +826,7 @@ li {
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_footer.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_footer.styl */
-.copyright {
+.footer {
   background-color: #152a42;
   color: #fff;
   font-size: 1rem;
@@ -839,7 +839,7 @@ li {
 @media print, screen and (orientation: landscape) {
 
 /* line 12 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_footer.styl */
-  .copyright {
+  .footer {
     font-size: 1.3rem;
   }
 }
