@@ -93,7 +93,7 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
         margin 4rem 0 .2rem
         padding 0
         width 45%
-        &:active, :hover
+        &:hover
           background-color c-txt-1
           color c-bg-1
 
@@ -145,5 +145,11 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
             padding-bottom 1rem
             transition: width .6s;
             width 0
+          &:hover
+            background-color inherit
+            color inherit
           &:hover::after
             width 100%
+          &:active
+            background-color c-txt-1
+            color c-bg-1

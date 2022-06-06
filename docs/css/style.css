@@ -693,8 +693,7 @@ li {
 }
 
 /* line 96 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-.hamburgerMenu ul li a:active,
-.hamburgerMenu ul li a :hover {
+.hamburgerMenu ul li a:hover {
   background-color: #152a42;
   color: #fff;
 }
@@ -790,14 +789,26 @@ li {
   }
 
 /* line 148 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+  .hamburgerMenu ul li a:hover {
+    background-color: inherit;
+    color: inherit;
+  }
+
+/* line 151 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a:hover::after {
     width: 100%;
+  }
+
+/* line 153 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+  .hamburgerMenu ul li a:active {
+    background-color: #152a42;
+    color: #fff;
   }
 }
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 149 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 155 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
