@@ -698,7 +698,14 @@ li {
   color: #fff;
 }
 
-/* line 101 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 100 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+.hamburgerMenu .hamburgerMenuIcon {
+  margin: 2.8rem 0.8rem;
+  width: 11%;
+  height: auto;
+}
+
+/* line 106 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 .hamburgerMenu.active {
   height: 100vh;
   opacity: 100;
@@ -707,71 +714,71 @@ li {
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 108 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 113 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .header {
     height: 8rem;
   }
 
-/* line 110 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 115 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 111 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 116 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .headerLogo img {
     height: 5.6rem;
   }
 
-/* line 113 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 118 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger {
     height: 5rem;
     width: 5rem;
   }
 
-/* line 116 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 121 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger span {
     right: 1.5rem;
     width: 1.9rem;
   }
 
-/* line 119 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 124 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger span:nth-child(1) {
     top: 1.5rem;
   }
 
-/* line 121 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 126 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger span:nth-child(2) {
     top: 2.4rem;
   }
 
-/* line 123 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 128 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger span:nth-child(3) {
     top: 3.3rem;
   }
 
-/* line 125 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 130 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 126 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 131 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger.active span {
     right: 1.5rem;
     width: 1.9rem;
   }
 
-/* line 129 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 134 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger.active span:nth-child(1) {
     top: 2.5rem;
   }
 
-/* line 131 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 136 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger.active span:nth-child(2),
   .hamburger.active span:nth-child(3) {
     top: 2.5rem;
   }
 
-/* line 134 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 139 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 135 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 140 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 136 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 141 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 137 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 142 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a {
     border-bottom: none;
     display: inline-block;
@@ -779,7 +786,7 @@ li {
     width: 15%;
   }
 
-/* line 142 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 147 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a::after {
     border-bottom: 0.2rem solid #152a42;
     content: "";
@@ -789,27 +796,34 @@ li {
     width: 0;
   }
 
-/* line 149 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 154 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a:hover {
     background-color: inherit;
     color: inherit;
   }
 
-/* line 152 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 157 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a:hover::after {
     width: 100%;
   }
 
-/* line 154 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 159 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a:active {
     background-color: #152a42;
     color: #fff;
+  }
+
+/* line 162 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+  .hamburgerMenu .hamburgerMenuIcon {
+    margin: 2.8rem 0.8rem;
+    width: 3.5%;
+    height: auto;
   }
 }
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 156 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 165 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 
