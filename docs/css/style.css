@@ -868,29 +868,29 @@ li {
   background: no-repeat center/100% 100% url("../img/common/hukidashi_big.svg");
   margin: 0 auto;
   max-width: 40rem;
-  padding: 3rem 1rem;
+  padding: 4.5rem 1rem 3.5rem;
   width: 90vw;
 }
 
-/* line 96 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 58 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
   padding: 5vh 3vw;
 }
 
-/* line 99 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 61 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
   padding: 5vh 3vw;
 }
 
-/* line 102 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 64 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 .topLogo {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 106 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 68 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
-/* line 107 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 69 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__msg {
     font-size: 2.2vw;
     letter-spacing: 1rem;
@@ -898,13 +898,13 @@ li {
     padding-left: 2rem;
   }
 
-/* line 112 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 74 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero img.hero__logoLarge {
     bottom: 20%;
     height: 15%;
   }
 
-/* line 115 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 77 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero img.hero__sensu {
     left: 85%;
     position: absolute;
@@ -912,24 +912,24 @@ li {
     width: 110%;
   }
 
-/* line 120 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 82 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__scroll {
     bottom: 7rem;
   }
 
-/* line 122 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 84 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__scroll__txt {
     font-size: 1vw;
   }
 
-/* line 124 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 86 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .hero__scroll__triangle {
     border-left: 1.05rem solid transparent;
     border-right: 1.05rem solid transparent;
     border-top: 1.575rem solid #152a42;
   }
 
-/* line 128 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 90 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
   .contents {
     max-width: 45rem;
   }
