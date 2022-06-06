@@ -887,7 +887,7 @@ li {
 }
 
 /* line 64 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-.topLogo {
+.topIcon {
   width: 20%;
 }
 @media print, screen and (orientation: landscape) {
@@ -933,9 +933,14 @@ li {
     border-top: 1.575rem solid #152a42;
   }
 
-/* line 90 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
-  .contents {
+/* line 91 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+  .hukidashi {
     max-width: 45rem;
+  }
+
+/* line 94 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+  .topIcon {
+    width: 8%;
   }
 }
 
