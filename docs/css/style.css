@@ -819,9 +819,16 @@ li {
     width: 3.5%;
     height: auto;
   }
+
+/* line 166 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+
+/* line 167 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+  .hamburgerMenu.active::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-/* line 165 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 168 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 
