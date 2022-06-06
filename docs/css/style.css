@@ -91,7 +91,13 @@
   vertical-align: -1rem;
 }
 
-/* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
+/* line 8 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
+.btn--box:hover {
+  background-color: #152a42;
+  color: #fff;
+}
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_btn.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_line.styl */
 
