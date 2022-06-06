@@ -830,21 +830,19 @@ li {
   background-color: #152a42;
   color: #fff;
   font-size: 1rem;
-  height: 4vh;
   letter-spacing: 0.15rem;
   margin: 0;
   text-align: center;
-  width: 100vw;
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 12 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
   .footer {
     font-size: 1.3rem;
   }
 }
 
-/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 11 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
