@@ -1,14 +1,18 @@
 // ハンバーガーメニュー
 $(function() {
-    $('.hamburger').click(function() {
-        $(this).toggleClass('active');
+    addClass('.hamburger', '.hamburgerMenu', 'active');
+    addClass('.hamburger', 'body', '.fixed');
 
-        if ($(this).hasClass('active')) {
-            $('.hamburgerMenu').addClass('active');
-        } else {
-            $('.hamburgerMenu').removeClass('active');
-        }
-    });
+    function addClass(clickedElm, addedElm, className){
+      $(clickedElm).click(function() {
+          $(this).toggleClass(className);
+          if ($(this).hasClass(className)) {
+              $(addedElm).addClass(className);
+          } else {
+              $(addedElm).removeClass(className);
+          }
+      });
+    }
 });
 
 // アドレスバーの高さを除いたサイズを取得
