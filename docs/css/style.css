@@ -727,78 +727,73 @@ li {
 .hamburgerMenu.active::-webkit-scrollbar {
   display: none;
 }
-
-/* line 115 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
-.fixed {
-  position: fixed;
-}
 @media print, screen and (orientation: landscape) {
 
-/* line 119 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 115 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .header {
     height: 8rem;
   }
 
-/* line 121 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 117 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 122 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 118 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .headerLogo img {
     height: 5.6rem;
   }
 
-/* line 124 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 120 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger {
     height: 5rem;
     width: 5rem;
   }
 
-/* line 127 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 123 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger span {
     right: 1.5rem;
     width: 1.9rem;
   }
 
-/* line 130 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 126 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger span:nth-child(1) {
     top: 1.5rem;
   }
 
-/* line 132 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 128 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger span:nth-child(2) {
     top: 2.4rem;
   }
 
-/* line 134 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 130 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger span:nth-child(3) {
     top: 3.3rem;
   }
 
-/* line 136 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 132 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 137 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 133 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger.active span {
     right: 1.5rem;
     width: 1.9rem;
   }
 
-/* line 140 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 136 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger.active span:nth-child(1) {
     top: 2.5rem;
   }
 
-/* line 142 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 138 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburger.active span:nth-child(2),
   .hamburger.active span:nth-child(3) {
     top: 2.5rem;
   }
 
-/* line 145 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 141 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 146 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 142 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 147 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 143 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 148 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 144 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a {
     border-bottom: none;
     display: inline-block;
@@ -806,7 +801,7 @@ li {
     width: 15%;
   }
 
-/* line 153 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 149 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a::after {
     border-bottom: 0.2rem solid #152a42;
     content: "";
@@ -816,39 +811,39 @@ li {
     width: 0;
   }
 
-/* line 160 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 156 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a:hover {
     background-color: inherit;
     color: inherit;
   }
 
-/* line 163 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 159 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a:hover::after {
     width: 100%;
   }
 
-/* line 165 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 161 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu ul li a:active {
     background-color: #152a42;
     color: #fff;
   }
 
-/* line 168 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 164 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu .hamburgerMenuIcon {
     margin: 2.8rem 0.8rem;
     width: 3.5%;
     height: auto;
   }
 
-/* line 172 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 168 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
-/* line 173 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 169 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
   .hamburgerMenu.active::-webkit-scrollbar {
-    display: inherit;
+    background-color: #fff;
   }
 }
 
-/* line 174 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
+/* line 170 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 

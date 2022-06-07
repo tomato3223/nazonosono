@@ -111,10 +111,6 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
     &::-webkit-scrollbar
       display none
 
-/* メニュー展開時にbodyを固定 */
-.fixed
-  position: fixed;
-
 +ls()
   .header
     height headerHeightPc
@@ -171,4 +167,4 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
       height auto
     &.active
       &::-webkit-scrollbar
-        display inherit
+        background-color c-bg-1

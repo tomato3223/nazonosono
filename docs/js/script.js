@@ -4,10 +4,8 @@ $(function() {
         $(this).toggleClass("active");
         if ($(this).hasClass("active")) {
             $(".hamburgerMenu").addClass("active");
-            $("body").addClass("fixed");
         } else {
             $(".hamburgerMenu").removeClass("active");
-            $("body").removeClass("fixed");
         }
     });
 });
