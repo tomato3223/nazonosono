@@ -840,26 +840,30 @@ li {
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 .footer {
   background-color: #152a42;
+  bottom: 0;
   color: #fff;
   font-size: 1rem;
+  left: 0;
   letter-spacing: 0.15rem;
   margin: 0;
+  position: fixed;
+  right: 0;
   text-align: center;
 }
 
-/* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 .copyright {
   margin: 0;
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 17 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
   .footer {
     font-size: 1.3rem;
   }
 }
 
-/* line 14 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 18 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
@@ -1014,11 +1018,40 @@ li {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
-/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 95 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
-/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
 
-/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
+.access__main {
+  overflow-x: hidden;
+}
 
-/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
+/* line 4 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
+.map {
+  margin: 8rem 2rem 2rem;
+}
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
+iframe {
+  width: 100%;
+}
+@media print, screen and (orientation: landscape) {
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
+  .map {
+    margin: 10rem 4rem 4rem;
+  }
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
+  iframe {
+    width: 70%;
+  }
+}
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
 /*# sourceMappingURL=style.css.map */
