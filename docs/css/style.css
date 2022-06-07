@@ -555,7 +555,17 @@ li {
   background-color: #152a42;
 }
 
-/* line 45 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 47 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+::-webkit-scrollbar {
+  background-color: #152a42;
+}
+
+/* line 49 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+::-webkit-scrollbar-thumb {
+  background-color: #e3493f;
+}
+
+/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
