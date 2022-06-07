@@ -108,6 +108,8 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
     opacity: 100
     overflow-y: scroll
     visibility: visible
+    &::-webkit-scrollbar
+      display none
 
 /* メニュー展開時にbodyを固定 */
 .fixed
@@ -169,4 +171,4 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
       height auto
     &.active
       &::-webkit-scrollbar
-        display none
+        display inherit
