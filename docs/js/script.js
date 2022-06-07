@@ -1,7 +1,7 @@
 // ハンバーガーメニュー
 $(function() {
     addClass('.hamburger', '.hamburgerMenu', 'active');
-    addClass('.hamburger', 'body', '.fixed');
+    addClass('.hamburger', 'body', 'fixed');
 
     function addClass(clickedElm, addedElm, className){
       $(clickedElm).click(function() {
