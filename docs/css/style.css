@@ -489,57 +489,65 @@ body {
   background-image: url("../img/common/kamigata_haikei_sp.jpg");
   background-repeat: repeat;
   color: #152a42;
+  display: flex;
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+  flex-flow: column;
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 0.05em;
   line-height: 3rem;
   margin: 0;
+  min-height: 100vh;
+}
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+main {
+  flex: 1;
 }
 @media print, screen and (min-width: 520px) {
 
-/* line 16 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 22 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
   body {
     font-size: 1.6rem;
   }
 }
 @media print, screen and (min-width: 1025px) {
 
-/* line 20 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 26 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
   body {
     font-size: 1.6rem;
     letter-spacing: 0.1em;
   }
 }
 
-/* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 * {
   float: none;
   position: static;
 }
 
-/* line 28 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 37 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 a:hover {
   color: c-gray;
 }
 
-/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 img {
   width: 100%;
 }
 
-/* line 36 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 li {
   list-style: none;
 }
 
-/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 45 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 .progress {
   background-color: #fff;
   inset: 0;
@@ -547,12 +555,12 @@ li {
   z-index: 9999;
 }
 
-/* line 44 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 .progress.visited {
   display: none;
 }
 
-/* line 46 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 52 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 .progress__bar {
   background-color: #152a42;
   height: 1rem;
@@ -562,7 +570,7 @@ li {
   width: 70vw;
 }
 
-/* line 53 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 59 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 .progress__bar__now {
   background-color: #e3493f;
   height: 100%;
@@ -572,15 +580,15 @@ li {
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 61 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 67 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 
-/* line 62 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 68 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
   .progress__bar {
     width: 40vw;
   }
 }
 
-/* line 65 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 71 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-moz-selection {
   color: #fff;
   background-color: #152a42;
@@ -590,23 +598,23 @@ li {
   background-color: #152a42;
 }
 
-/* line 68 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 74 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::moz-selection {
   color: #fff;
   background-color: #152a42;
 }
 
-/* line 72 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 78 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-webkit-scrollbar {
   background-color: #152a42;
 }
 
-/* line 74 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 80 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-webkit-scrollbar-thumb {
   background-color: #e3493f;
 }
 
-/* line 75 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 81 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
@@ -891,30 +899,25 @@ li {
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 .footer {
   background-color: #152a42;
-  bottom: 0;
   color: #fff;
   font-size: 1rem;
-  left: 0;
   letter-spacing: 0.15rem;
-  margin: 0;
-  position: absolute;
-  right: 0;
   text-align: center;
 }
 
-/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 8 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 .copyright {
   margin: 0;
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 17 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 12 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
   .footer {
     font-size: 1.3rem;
   }
 }
 
-/* line 18 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
+/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_footer.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_top.styl */
 
