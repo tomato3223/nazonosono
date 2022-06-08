@@ -1,3 +1,23 @@
+// プログレスバー
+$(function () {
+  var webStorage = function () {
+    if (sessionStorage.getItem('access')) {
+      // 2回目以降アクセス時
+      $(".progress").addClass('visited'); // 非表示
+    } else {
+      // 初回アクセス時
+      sessionStorage.setItem('access', 'true'); // sessionStorageにデータを保存
+      $(".progress__bar__now").css("transition","2s linear")
+      $(".progress__bar__now").width("100%")
+      setTimeout(function () {
+        // ローディングを2秒後に非表示にする
+        $(".progress").addClass('visited');
+      }, 2000);
+    }
+  }
+  webStorage();
+});
+
 // ハンバーガーメニュー
 $(function() {
     $(".hamburger").click(function() {

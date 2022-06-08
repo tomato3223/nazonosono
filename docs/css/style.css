@@ -539,7 +539,48 @@ li {
   list-style: none;
 }
 
-/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+.progress {
+  background-color: #fff;
+  inset: 0;
+  position: absolute;
+  z-index: 9999;
+}
+
+/* line 44 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+.progress.visited {
+  display: none;
+}
+
+/* line 46 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+.progress__bar {
+  background-color: #152a42;
+  height: 1rem;
+  inset: 0;
+  margin: auto;
+  position: fixed;
+  width: 70vw;
+}
+
+/* line 53 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+.progress__bar__now {
+  background-color: #e3493f;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+@media print, screen and (orientation: landscape) {
+
+/* line 61 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+
+/* line 62 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+  .progress__bar {
+    width: 40vw;
+  }
+}
+
+/* line 65 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-moz-selection {
   color: #fff;
   background-color: #152a42;
@@ -549,23 +590,23 @@ li {
   background-color: #152a42;
 }
 
-/* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 68 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::moz-selection {
   color: #fff;
   background-color: #152a42;
 }
 
-/* line 47 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 72 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-webkit-scrollbar {
   background-color: #152a42;
 }
 
-/* line 49 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 74 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-webkit-scrollbar-thumb {
   background-color: #e3493f;
 }
 
-/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 75 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\foundation\_base.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
