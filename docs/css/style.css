@@ -897,7 +897,7 @@ li {
   left: 0;
   letter-spacing: 0.15rem;
   margin: 0;
-  position: relative;
+  position: absolute;
   right: 0;
   text-align: center;
 }
