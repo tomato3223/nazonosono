@@ -1,0 +1,27 @@
+.load
+  background-color c-bg-1
+  inset: 0
+  position: absolute;
+  z-index: 9999
+
+.visited
+  display: none
+
+.progress__bar
+  background-color c-navy
+  height: 1rem
+  inset: 0
+  margin auto
+  position fixed
+  width: 70vw
+  &__now
+    background-color c-red
+    height 100%
+    position absolute
+    top: 0
+    width 0
+
++ls()
+  .progress
+    &__bar
+      width 40vw

@@ -6,11 +6,10 @@ html(lang="ja", dir="ltr", prefix="og: http://ogp.me/ns#")
     include include/_head
 
   body(class=key)
-    // プログレスバー
-    div.progress
-      div.progress__bar
-        div.progress__bar__now
-      
+    // ##### ロード画面 #####
+    div.load
+      include include/_load
+
     // ##### ヘッダー #####
     header.header
       include include/_header
