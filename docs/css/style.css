@@ -1307,7 +1307,7 @@ iframe {
   background-color: #152a42;
   color: #fff;
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: 1rem 0 1rem 3rem;
   width: 5rem;
 }
 
@@ -1316,7 +1316,7 @@ iframe {
   font-size: 2.2rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
-  margin: 2rem 1rem;
+  margin: 2rem 0 2rem 3rem;
   text-align: left;
   width: 18rem;
 }
@@ -1325,7 +1325,7 @@ iframe {
 .groupContents__groupIcon {
   left: 10rem;
   position: relative;
-  top: -10rem;
+  top: -9.5rem;
   width: 7rem;
 }
 
@@ -1335,9 +1335,9 @@ iframe {
 }
 
 /* line 32 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
-.groupContents.hukidashi {
+.groupContents .hukidashi {
   position: relative;
-  top: -8rem;
+  top: -7rem;
 }
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
