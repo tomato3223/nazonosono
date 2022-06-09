@@ -3,7 +3,7 @@ $(function () {
   var webStorage = function () {
     if (sessionStorage.getItem('access')) {
       // 2回目以降アクセス時
-      $(".load").addClass('visited'); // 非表示
+      $(".load").addClass('dispNone'); // 非表示
     } else {
       // 初回アクセス時
       sessionStorage.setItem('access', 'true'); // sessionStorageにデータを保存
@@ -15,12 +15,22 @@ $(function () {
       }, 1000);
       setTimeout(function () {
         // プログレスバーを非表示にする
-        $(".progress").addClass('visited');
+        $(".progress").addClass('dispNone');
       }, 2200);
       setTimeout(function () {
         // ロード画面を非表示にする
-        $(".load").addClass('visited');
+        $(".load").addClass('dispNone');
       }, 4000);
+      // トップページの要素を順番に表示
+      setTimeout(function () {
+        $(".hero__msg--1").addClass('opac100');
+      }, 4500);
+      setTimeout(function () {
+        $(".hero__msg--2").addClass('opac100');
+      }, 6000);
+      setTimeout(function () {
+        $(".hero__scroll").addClass('opac100');
+      }, 7500);
     }
   }
   webStorage();
