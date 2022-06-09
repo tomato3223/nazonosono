@@ -1299,7 +1299,7 @@ iframe {
 
 /* line 10 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents {
-  padding: 5vh 3vw;
+  padding: 4vh 3vw 0 3vw;
 }
 
 /* line 12 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
@@ -1307,7 +1307,7 @@ iframe {
   background-color: #152a42;
   color: #fff;
   font-size: 1.5rem;
-  margin: 1rem 0 1rem 3rem;
+  margin: 1rem 0 1rem 1rem;
   width: 5rem;
 }
 
@@ -1316,51 +1316,35 @@ iframe {
   font-size: 2.2rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
-  margin: 2rem 0 2rem 3rem;
+  margin: 2rem 0 2rem 1rem;
   text-align: left;
   width: 18rem;
 }
 
 /* line 25 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents__groupIcon {
-  left: 10rem;
+  left: 11rem;
   position: relative;
   top: -9.5rem;
   width: 7rem;
 }
 
-<<<<<<< HEAD
 /* line 30 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
-=======
-/* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
->>>>>>> 0c5141fe0be1c3d3c84d921bb9a91e911a6b83cd
 .groupContents__info {
   margin-top: 3rem;
 }
 
-<<<<<<< HEAD
 /* line 32 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
-=======
-/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
->>>>>>> 0c5141fe0be1c3d3c84d921bb9a91e911a6b83cd
 .groupContents .hukidashi {
   position: relative;
-  top: -7rem;
+  top: -8rem;
 }
 
-<<<<<<< HEAD
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
-=======
-/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
->>>>>>> 0c5141fe0be1c3d3c84d921bb9a91e911a6b83cd
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 
-<<<<<<< HEAD
 /* line 34 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
-=======
-/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
->>>>>>> 0c5141fe0be1c3d3c84d921bb9a91e911a6b83cd
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\utility\_utility.styl */
 
