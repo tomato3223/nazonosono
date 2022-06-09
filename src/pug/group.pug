@@ -6,25 +6,24 @@ block vars
   - var page = pages[key]
 
 block contents
-  section(class="topGroup")
-    img(class="topIcon" src=imgPath+"/common/question.svg" alt="はてな")
-    h1.ttl--1 出展団体
-    h2.ttl--2 GROUP
-    div.groupContents
+  img(class="topIcon" src=imgPath+"/common/question.svg" alt="はてな")
+  h1.ttl--1 出展団体
+  h2.ttl--2 GROUP
+  div.groupContents
+    p(class="number") 
+      | No.1
+    p(class="groupName") 
+      span.line AnotherVision
+    img(class="groupIcon" src=imgPath+"/common/logo.png" alt="AnotherVision")
+    div(class="hukidashi")
+      p(class="topDesc")
+        | ここに120字くらいの団体紹介文が入ります。
+  div.groupContents
       p(class="number") 
-        |No.1
+        | No.2
       p(class="groupName") 
-        span.line AnotherVision
-      img(class="groupIcon" src=imgPath+"/common/logo.png" alt="AnotherVision")
+      span.line ENIG-ROID
+      img(class="groupIcon" src=imgPath+"/common/logo.png" alt="ENIG-ROID")
       div(class="hukidashi")
-        p(class="topDesc")
-          | ここに120字くらいの団体紹介文が入ります。
-    div.groupContents
-        p(class="number") 
-          |No.2
-        p(class="groupName") 
-        span.line ENIG-ROID
-        img(class="groupIcon" src=imgPath+"/common/logo.png" alt="ENIG-ROID")
-        div(class="hukidashi")
-        p(class="topDesc")
-          | ここに120字くらいの団体紹介文が入ります。
+      p(class="topDesc")
+        | ここに120字くらいの団体紹介文が入ります。
