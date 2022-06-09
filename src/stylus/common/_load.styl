@@ -8,30 +8,45 @@
 
 .maku
   inset: 0
+  overflow: hidden
   position: absolute
   &__left
     bottom: 0
     position: absolute
-    right: 50%
+    right: 100%
     top: 0
+    width 50vw
     &.move
-      animation: moveLeft 2s forwards
+      animation: moveLeft 3s forwards
   &__right
     bottom: 0
-    left: 50%
+    left: 100%
     position: absolute
     top: 0
+    width 50vw
     &.move
-      animation: moveRight 2s forwards
+      animation: moveRight 3s forwards
   & img
     height: 100%
 
 @keyframes moveLeft {
+  0% {
+    transform: translateX(0%)
+  }
+  40% {
+    transform: translateX(100%)
+  }
   100% {
     transform: translateX(-100%)
   }
 }
 @keyframes moveRight {
+  0% {
+    transform: translateX(0%)
+  }
+  40% {
+    transform: translateX(-100%)
+  }
   100% {
     transform: translateX(100%)
   }

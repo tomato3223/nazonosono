@@ -605,50 +605,53 @@ li {
 /* line 9 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .maku {
   inset: 0;
+  overflow: hidden;
   position: absolute;
 }
 
-/* line 12 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .maku__left {
   bottom: 0;
   position: absolute;
-  right: 50%;
+  right: 100%;
   top: 0;
-}
-
-/* line 17 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
-.maku__left.move {
-  -webkit-animation: moveLeft 2s forwards;
-          animation: moveLeft 2s forwards;
+  width: 50vw;
 }
 
 /* line 19 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+.maku__left.move {
+  -webkit-animation: moveLeft 3s forwards;
+          animation: moveLeft 3s forwards;
+}
+
+/* line 21 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .maku__right {
   bottom: 0;
-  left: 50%;
+  left: 100%;
   position: absolute;
   top: 0;
+  width: 50vw;
 }
 
-/* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 27 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .maku__right.move {
-  -webkit-animation: moveRight 2s forwards;
-          animation: moveRight 2s forwards;
+  -webkit-animation: moveRight 3s forwards;
+          animation: moveRight 3s forwards;
 }
 
-/* line 26 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 29 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .maku img {
   height: 100%;
 }
 
-/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 55 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .progress {
   background-color: #fff;
   inset: 0;
   position: absolute;
 }
 
-/* line 44 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 59 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .progress__logo {
   left: 50%;
   position: absolute;
@@ -657,7 +660,7 @@ li {
   width: 50vw;
 }
 
-/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 65 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .progress__bar {
   background-color: #152a42;
   height: 1rem;
@@ -668,7 +671,7 @@ li {
   width: 70vw;
 }
 
-/* line 58 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 73 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .progress__bar__now {
   background-color: #e3493f;
   height: 100%;
@@ -678,64 +681,104 @@ li {
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 66 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 81 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
-/* line 67 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 82 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
   .progress__logo {
     width: 20vw;
   }
 
-/* line 69 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 84 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
   .progress__bar {
     width: 40vw;
   }
 }
 
-/* line 29 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
-/* line 29 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 @-webkit-keyframes moveLeft {
 
-/* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  0% {
+    transform: translateX(0%);
+  }
+
+/* line 36 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  40% {
+    transform: translateX(100%);
+  }
+
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
   100% {
     transform: translateX(-100%);
   }
 }
 
-/* line 29 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
-/* line 29 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 @keyframes moveLeft {
 
-/* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  0% {
+    transform: translateX(0%);
+  }
+
+/* line 36 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  40% {
+    transform: translateX(100%);
+  }
+
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
   100% {
     transform: translateX(-100%);
   }
 }
 
-/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
-/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 @-webkit-keyframes moveRight {
 
-/* line 35 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 44 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  0% {
+    transform: translateX(0%);
+  }
+
+/* line 47 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  40% {
+    transform: translateX(-100%);
+  }
+
+/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
   100% {
     transform: translateX(100%);
   }
 }
 
-/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
-/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 @keyframes moveRight {
 
-/* line 35 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 44 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  0% {
+    transform: translateX(0%);
+  }
+
+/* line 47 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  40% {
+    transform: translateX(-100%);
+  }
+
+/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
   100% {
     transform: translateX(100%);
   }
 }
 
-/* line 70 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 85 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 

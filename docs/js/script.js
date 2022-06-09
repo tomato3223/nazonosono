@@ -18,7 +18,7 @@ $(function () {
       setTimeout(function () {
         // ロード画面を非表示にする
         $(".load").addClass('visited');
-      }, 2800);
+      }, 3800);
     }
   }
   webStorage();
