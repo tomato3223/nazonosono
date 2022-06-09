@@ -25,7 +25,7 @@ $(function () {
       $(".hero__msg--1").addClass('opac0');
       $(".hero__msg--2").addClass('opac0');
       $(".hero__scroll").addClass('opac0');
-      $(".top > .header").addClass('opac0');
+      // $(".top > .header").addClass('opac0');
       // トップページの要素を順番に表示
       setTimeout(function () {
         $(".hero__msg--1").removeClass('opac0');
@@ -35,7 +35,7 @@ $(function () {
       }, 5500);
       setTimeout(function () {
         $(".hero__scroll").removeClass('opac0');
-        $(".top > .header").removeClass('opac0');
+        // $(".top > .header").removeClass('opac0');
       }, 7000);
     }
   }
