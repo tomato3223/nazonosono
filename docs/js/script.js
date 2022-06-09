@@ -21,16 +21,22 @@ $(function () {
         // ロード画面を非表示にする
         $(".load").addClass('dispNone');
       }, 4000);
+      // トップページの要素を非表示に
+      $(".hero__msg--1").addClass('opac0');
+      $(".hero__msg--2").addClass('opac0');
+      $(".hero__scroll").addClass('opac0');
+      $(".top > .header").addClass('opac0');
       // トップページの要素を順番に表示
       setTimeout(function () {
-        $(".hero__msg--1").addClass('opac100');
-      }, 4500);
+        $(".hero__msg--1").removeClass('opac0');
+      }, 4000);
       setTimeout(function () {
-        $(".hero__msg--2").addClass('opac100');
-      }, 6000);
+        $(".hero__msg--2").removeClass('opac0');
+      }, 5500);
       setTimeout(function () {
-        $(".hero__scroll").addClass('opac100');
-      }, 7500);
+        $(".hero__scroll").removeClass('opac0');
+        $(".top > .header").removeClass('opac0');
+      }, 7000);
     }
   }
   webStorage();
