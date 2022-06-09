@@ -1,5 +1,4 @@
 .load
-  background-color c-bg-1
   inset: 0
   position: absolute;
   z-index: 9999
@@ -7,19 +6,54 @@
 .visited
   display: none
 
-.progress__bar
-  background-color c-navy
-  height: 1rem
+.maku
   inset: 0
-  margin auto
-  position fixed
-  width: 70vw
-  &__now
-    background-color c-red
-    height 100%
-    position absolute
+  position: absolute
+  &__left
+    bottom: 0
+    position: absolute
+    right: 50%
     top: 0
-    width 0
+    &.move
+      animation: moveLeft 2s forwards
+  &__right
+    bottom: 0
+    left: 50%
+    position: absolute
+    top: 0
+    &.move
+      animation: moveRight 2s forwards
+  & img
+    height: 100%
+
+@keyframes moveLeft {
+  100% {
+    transform: translateX(-100%)
+  }
+}
+@keyframes moveRight {
+  100% {
+    transform: translateX(100%)
+  }
+}
+
+.progress
+  background-color c-bg-1
+  inset: 0
+  position: absolute
+  &__bar
+    background-color c-navy
+    height: 1rem
+    inset: 0
+    margin auto
+    position fixed
+    width: 70vw
+    &__now
+      background-color c-red
+      height 100%
+      position absolute
+      top: 0
+      width 0
 
 +ls()
   .progress

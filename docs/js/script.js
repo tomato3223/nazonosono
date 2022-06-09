@@ -7,12 +7,18 @@ $(function () {
     } else {
       // 初回アクセス時
       sessionStorage.setItem('access', 'true'); // sessionStorageにデータを保存
-      $(".progress__bar__now").css("transition","1s linear")
+      $(".progress__bar__now").css("transition",".6s linear")
       $(".progress__bar__now").width("100%")
       setTimeout(function () {
-        // ローディングを数秒後に非表示にする
+        // プログレスバーを非表示にする
+        $(".progress").addClass('visited');
+        // 幕を開く
+        $(".maku__left, .maku__right").addClass('move');
+      }, 800);
+      setTimeout(function () {
+        // ロード画面を非表示にする
         $(".load").addClass('visited');
-      }, 1000);
+      }, 2800);
     }
   }
   webStorage();
