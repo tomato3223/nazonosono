@@ -649,16 +649,26 @@ li {
 }
 
 /* line 44 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+.progress__logo {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+}
+
+/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .progress__bar {
   background-color: #152a42;
   height: 1rem;
-  inset: 0;
-  margin: auto;
-  position: fixed;
+  left: 50%;
+  position: absolute;
+  top: 60%;
+  transform: translate(-50%, -50%);
   width: 70vw;
 }
 
-/* line 51 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 58 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 .progress__bar__now {
   background-color: #e3493f;
   height: 100%;
@@ -668,9 +678,14 @@ li {
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 59 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 66 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
-/* line 60 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 67 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  .progress__logo {
+    width: 20vw;
+  }
+
+/* line 69 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
   .progress__bar {
     width: 40vw;
   }
@@ -720,7 +735,7 @@ li {
   }
 }
 
-/* line 61 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 70 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 

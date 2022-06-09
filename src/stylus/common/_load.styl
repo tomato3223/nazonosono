@@ -41,12 +41,19 @@
   background-color c-bg-1
   inset: 0
   position: absolute
+  &__logo
+    left: 50%
+    position absolute
+    top: 45%
+    transform: translate(-50%, -50%)
+    width 50vw
   &__bar
     background-color c-navy
     height: 1rem
-    inset: 0
-    margin auto
-    position fixed
+    left: 50%
+    position absolute
+    top: 60%
+    transform: translate(-50%, -50%)
     width: 70vw
     &__now
       background-color c-red
@@ -57,5 +64,7 @@
 
 +ls()
   .progress
+    &__logo
+      width 20vw
     &__bar
       width 40vw
