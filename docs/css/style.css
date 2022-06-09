@@ -1295,14 +1295,15 @@ iframe {
 /* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .topIcon {
   width: 20%;
+  padding-top: 10rem;
 }
 
-/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 11 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents {
   padding: 4vh 3vw 0 3vw;
 }
 
-/* line 12 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents__number {
   background-color: #152a42;
   color: #fff;
@@ -1311,7 +1312,7 @@ iframe {
   width: 5rem;
 }
 
-/* line 18 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 19 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents__groupName {
   font-size: 2.2rem;
   font-weight: 500;
@@ -1321,20 +1322,20 @@ iframe {
   width: 18rem;
 }
 
-/* line 25 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 26 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents__groupIcon {
-  left: 11rem;
+  left: 10rem;
   position: relative;
   top: -9.5rem;
-  width: 7rem;
+  width: 6rem;
 }
 
-/* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents__info {
   margin-top: 3rem;
 }
 
-/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents .hukidashi {
   position: relative;
   top: -7rem;
@@ -1344,7 +1345,7 @@ iframe {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 
-/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 35 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\utility\_utility.styl */
 
