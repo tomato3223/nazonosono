@@ -1322,18 +1322,24 @@ iframe {
 }
 
 /* line 25 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
-.groupContents img.groupContents__groupIcon {
-  position: relative;
+.groupContents__groupIcon {
   left: 10rem;
-  bottom: 10rem;
+  position: relative;
+  top: -10rem;
   width: 7rem;
+}
+
+/* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+.groupContents .hukidashi {
+  position: relative;
+  top: -10rem;
 }
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 
-/* line 29 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\utility\_utility.styl */
 
