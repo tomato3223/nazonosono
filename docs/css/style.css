@@ -1306,14 +1306,14 @@ iframe {
 .groupContents__number {
   background-color: #152a42;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 1rem;
-  width: 6rem;
+  width: 5rem;
 }
 
 /* line 18 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents__groupName {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
   margin: 2rem 1rem;
@@ -1323,6 +1323,9 @@ iframe {
 
 /* line 25 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents img.groupContents__groupIcon {
+  position: relative;
+  left: 10rem;
+  bottom: 10rem;
   width: 7rem;
 }
 
@@ -1330,7 +1333,7 @@ iframe {
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 
-/* line 26 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 29 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\utility\_utility.styl */
 
