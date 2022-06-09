@@ -1340,12 +1340,50 @@ iframe {
   position: relative;
   top: -7rem;
 }
+@media print, screen and (orientation: landscape) {
+
+/* line 38 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+  .topIcon {
+    width: 8%;
+  }
+
+/* line 40 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+  .groupContents {
+    padding: 8vh 3vw 0 3vw;
+  }
+
+/* line 42 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+  .groupContents__number {
+    font-size: 2rem;
+    margin-left: 49rem;
+    width: 6rem;
+  }
+
+/* line 46 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+  .groupContents__groupName {
+    font-size: 2.5rem;
+    margin-left: 49rem;
+    width: 20rem;
+  }
+
+/* line 50 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+  .groupContents__groupIcon {
+    left: 13rem;
+    top: -9.5rem;
+    width: 8rem;
+  }
+
+/* line 54 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+  .groupContents .hukidashi {
+    max-width: 45rem;
+  }
+}
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 
-/* line 35 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 55 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\utility\_utility.styl */
 
