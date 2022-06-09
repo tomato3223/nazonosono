@@ -1307,12 +1307,13 @@ iframe {
 .groupContents__number {
   background-color: #152a42;
   color: #fff;
+  display: block;
   font-size: 1.5rem;
   margin: 1rem 0 1rem 1rem;
   width: 4.3rem;
 }
 
-/* line 19 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 20 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents__groupName {
   font-size: 2.2rem;
   font-weight: 500;
@@ -1322,7 +1323,7 @@ iframe {
   width: 18rem;
 }
 
-/* line 26 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 27 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents__groupIcon {
   left: 10rem;
   position: relative;
@@ -1330,50 +1331,50 @@ iframe {
   width: 6rem;
 }
 
-/* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents__info {
   margin-top: 3rem;
 }
 
-/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 .groupContents .hukidashi {
   position: relative;
   top: -7rem;
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 38 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
   .topIcon {
     width: 8%;
   }
 
-/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 41 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
   .groupContents {
     padding: 8vh 3vw 0 3vw;
   }
 
-/* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
   .groupContents__number {
     font-size: 2rem;
     margin-left: 49rem;
     width: 6rem;
   }
 
-/* line 46 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 47 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
   .groupContents__groupName {
     font-size: 2.5rem;
     margin-left: 49rem;
     width: 20rem;
   }
 
-/* line 50 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 51 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
   .groupContents__groupIcon {
     left: 13rem;
     top: -9.5rem;
     width: 8rem;
   }
 
-/* line 54 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 55 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
   .groupContents .hukidashi {
     max-width: 45rem;
   }
@@ -1383,7 +1384,7 @@ iframe {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 
-/* line 55 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 56 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\utility\_utility.styl */
 
