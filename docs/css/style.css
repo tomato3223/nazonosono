@@ -1,5 +1,5 @@
 
-/* line 28 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\style.styl */
+/* line 27 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\style.styl */
 
 /* line 1 : C:\Users\daito\AppData\Local\Prepros\app-7.4.3\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
@@ -1280,8 +1280,6 @@ iframe {
   }
 }
 
-/* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
-
 /* line 13 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
@@ -1305,7 +1303,17 @@ iframe {
 }
 
 /* line 12 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
-.groupContents img.groupIcon {
+.groupContents__number {
+  font-size: 2rem;
+}
+
+/* line 14 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+.groupContents__groupName {
+  font-size: 2rem;
+}
+
+/* line 16 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+.groupContents img.groupContents__groupIcon {
   width: 6rem;
 }
 
@@ -1313,7 +1321,7 @@ iframe {
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 
-/* line 13 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
+/* line 17 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\utility\_utility.styl */
 
