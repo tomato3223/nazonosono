@@ -57,7 +57,7 @@
 
 /* line 24 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
 .ttl--3 {
-  font-size: 160%;
+  font-size: 150%;
   font-weight: 500;
   text-align: left;
   padding: 0rem 1rem;
@@ -1310,11 +1310,33 @@ li {
 }
 
 /* line 7 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+.icon_staff {
+  width: 22%;
+}
+
+/* line 10 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
 .topIcon {
   padding-top: 7rem;
 }
 
-/* line 8 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 13 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+.staff {
+  margin: 5vh 0 8vh 0;
+}
+
+/* line 15 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+.staff .staffName {
+  font-size: 130%;
+}
+@media print, screen and (orientation: landscape) {
+
+/* line 19 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+  .icon_staff {
+    width: 8%;
+  }
+}
+
+/* line 20 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
 
