@@ -63,29 +63,28 @@
   padding: 0rem 1rem;
   border-left: 1rem solid #152a42;
   margin-left: 5vw;
-  vertical-align: middle;
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 34 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 33 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
   .ttl--1 {
     font-size: 200%;
     margin: 5rem 0 2rem;
   }
 
-/* line 37 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 36 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
   .ttl--2 {
     font-size: 90%;
     margin: 2rem 0;
   }
 
-/* line 40 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 39 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
   .ttl--3 {
     font-size: 150%;
   }
 }
 
-/* line 41 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 40 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_btn.styl */
 
