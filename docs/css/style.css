@@ -1,5 +1,5 @@
 
-/* line 27 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\style.styl */
+/* line 28 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\style.styl */
 
 /* line 1 : C:\Users\daito\AppData\Local\Prepros\app-7.4.3\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
@@ -120,6 +120,36 @@
 }
 
 /* line 6 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_box.styl */
+
+/* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_icon.styl */
+
+/* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_icon.styl */
+.topIcon {
+  width: 22%;
+}
+
+/* line 4 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_icon.styl */
+.icon_Twitter {
+  margin: 0vh 5vw;
+  width: 11%;
+  height: auto;
+}
+@media print, screen and (orientation: landscape) {
+
+/* line 11 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_icon.styl */
+  .topIcon {
+    width: 8%;
+  }
+
+/* line 14 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_icon.styl */
+  .icon_Twitter {
+    margin: 3rem 0.8rem;
+    width: 2.8%;
+    height: auto;
+  }
+}
+
+/* line 17 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_icon.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_sanitize.styl */
 
@@ -561,18 +591,6 @@ li {
 }
 
 /* line 45 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
-.topIcon {
-  width: 22%;
-}
-@media print, screen and (orientation: landscape) {
-
-/* line 49 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
-  .topIcon {
-    width: 8%;
-  }
-}
-
-/* line 52 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-moz-selection {
   color: #fff;
   background-color: #152a42;
@@ -582,23 +600,23 @@ li {
   background-color: #152a42;
 }
 
-/* line 55 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 48 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::moz-selection {
   color: #fff;
   background-color: #152a42;
 }
 
-/* line 59 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 52 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-webkit-scrollbar {
   background-color: #152a42;
 }
 
-/* line 61 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 54 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 ::-webkit-scrollbar-thumb {
   background-color: #e3493f;
 }
 
-/* line 62 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
+/* line 55 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\foundation\_base.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\common\_load.styl */
 
