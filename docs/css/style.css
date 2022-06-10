@@ -54,27 +54,38 @@
   margin-left: 1em;
   width: 1em;
 }
+
+/* line 24 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+.ttl--3 {
+  font-size: 160%;
+  font-weight: 500;
+  text-align: left;
+  padding: 0rem 1rem;
+  border-left: 1rem solid #152a42;
+  margin-left: 5vw;
+  vertical-align: middle;
+}
 @media print, screen and (orientation: landscape) {
 
-/* line 25 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 34 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
   .ttl--1 {
     font-size: 200%;
     margin: 5rem 0 2rem;
   }
 
-/* line 28 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 37 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
   .ttl--2 {
     font-size: 90%;
     margin: 2rem 0;
   }
 
-/* line 31 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 40 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
   .ttl--3 {
     font-size: 150%;
   }
 }
 
-/* line 32 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
+/* line 41 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_heading.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_btn.styl */
 
@@ -1322,28 +1333,46 @@ li {
 }
 
 /* line 10 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
-.map {
-  margin: 8rem 2rem 2rem;
+.ttl3 {
+  margin: 5vh 0;
 }
 
 /* line 12 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
+.ttl3 .access_contents {
+  text-align: left;
+  margin-left: 8vw;
+}
+
+/* line 16 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
 iframe {
-  width: 100%;
+  width: 90%;
+  margin: 3vh 0;
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 16 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
-  .map {
-    margin: 10rem 4rem 4rem;
-  }
-
-/* line 18 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
+/* line 21 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
   iframe {
     width: 70%;
+    margin-bottom: 10vh;
+  }
+
+/* line 24 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
+  .ttl3 {
+    margin: 5vh 0;
+  }
+
+/* line 26 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
+  .ttl3 .ttl--3 {
+    margin-left: 17vw;
+  }
+
+/* line 28 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
+  .ttl3 .access_contents {
+    margin-left: 18vw;
   }
 }
 
-/* line 19 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
+/* line 29 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_group.styl */
 
