@@ -1193,12 +1193,12 @@ li {
 
 /* line 54 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topAbout {
-  padding: 5vh 3vw;
+  padding: 1vh 3vw 1vh 3vw;
 }
 
 /* line 57 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_top.styl */
 .topCloudFunding {
-  padding: 5vh 3vw;
+  padding: 1vh 3vw 5vh 3vw;
 }
 @media print, screen and (orientation: landscape) {
 
