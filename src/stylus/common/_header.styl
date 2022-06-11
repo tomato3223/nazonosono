@@ -76,7 +76,7 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
   visibility: hidden;
   width: 100%;
   z-index: 5;
-  & ul
+  &__contents
     margin: 0 auto;
     padding: 0;
     margin-top: headerHeight
@@ -96,11 +96,9 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
         &:hover
           background-color c-txt-1
           color c-bg-1
-
-  .hamburgerMenuIcon
-    margin 2.8rem 0.8rem
-    width 11%
-    height auto
+    &__icon
+      margin 2.8rem 0.8rem
+      width 4rem
 
   /* このクラスを、jQueryで付与・削除する */
   &.active
@@ -139,7 +137,7 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
         &:nth-child(3)
           top: (logoLenPc / 2);
   .hamburgerMenu
-    & ul
+    &__contents
       & li
         & a
           border-bottom none
@@ -161,10 +159,9 @@ headerHeightPc = logoTopPc * 2 + logoLenPc
           &:active
             background-color c-txt-1
             color c-bg-1
-    .hamburgerMenuIcon
-      margin 3.0rem 0.8rem
-      width 2.8%
-      height auto
+      &__icon
+        margin 3.0rem 0.8rem
+        width 2.8%
     &.active
       &::-webkit-scrollbar
         background-color c-bg-1
