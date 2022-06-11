@@ -1336,12 +1336,12 @@ li {
 }
 
 /* line 22 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
-.aboutStaff__wrapper {
+.aboutStaff__item {
   margin: 5vh 0 8vh 0;
 }
 
 /* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
-.aboutStaff .staffName {
+.aboutStaff__item__name {
   font-size: 130%;
 }
 
@@ -1351,20 +1351,20 @@ li {
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 29 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
-
 /* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+
+/* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
   .aboutStaff img {
     width: 8%;
   }
 
-/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
   .ttl--3 {
     margin-left: 32vw;
   }
 }
 
-/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
 
