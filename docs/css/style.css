@@ -1320,33 +1320,49 @@ li {
 }
 
 /* line 13 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
-.staff {
-  margin: 5vh 0 8vh 0;
+.about_event {
+  padding: 3vh 3vw 3vh 3vw;
 }
 
 /* line 15 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
-.staff .staffName {
-  font-size: 130%;
+.about_event .event {
+  background-color: #fff;
+  border: 0.2rem solid #152a42;
+  border-radius: 4%;
+  margin: 5vh auto 0 auto;
+  max-width: 40rem;
+  padding: 2.5rem 1rem 2.5rem;
+  width: 90vw;
 }
 
-/* line 17 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
-.staff .groupContents {
-  padding: 4vh 3vw 0 3vw;
+/* line 24 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+.about_staff {
+  padding: 3vh 3vw 1vh 3vw;
+}
+
+/* line 26 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+.about_staff .staff {
+  margin: 5vh 0 8vh 0;
+}
+
+/* line 28 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+.about_staff .staffName {
+  font-size: 130%;
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 21 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 32 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
   .icon_staff {
     width: 8%;
   }
 
-/* line 23 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 34 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
   .ttl--3 {
-    margin-left: 34vw;
+    margin-left: 32vw;
   }
 }
 
-/* line 24 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 35 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
 
