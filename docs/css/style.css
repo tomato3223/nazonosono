@@ -1352,15 +1352,15 @@ li {
 @media print, screen and (orientation: landscape) {
 
 /* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
-
-/* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
-  .aboutStaff img {
-    width: 8%;
+  .about__main .ttl--3 {
+    margin-left: 32vw;
   }
 
+/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+
 /* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
-  .ttl--3 {
-    margin-left: 32vw;
+  .aboutStaff img {
+    width: 8%;
   }
 }
 
