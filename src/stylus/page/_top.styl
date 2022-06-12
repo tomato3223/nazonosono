@@ -33,6 +33,7 @@
     transform translate(-50%, -50%)
     width: auto
   &__scroll
+    animation: upDown 2s infinite
     bottom 3rem
     cursor pointer
     left: 50%
@@ -50,6 +51,27 @@
       height: 0
       transform translateX(-50%)
       width: 0
+
+@keyframes upDown {
+  0% {
+    transform: translateY(-5%)
+  }
+  5% {
+    transform: translateY(0%)
+  }
+  10% {
+    transform: translateY(5%)
+  }
+  15% {
+    transform: translateY(0%)
+  }
+  20% {
+    transform: translateY(-5%)
+  }
+  25% {
+    transform: translateY(0%)
+  }
+}
 
 .topAbout
   padding 1vh 3vw 1vh 3vw
