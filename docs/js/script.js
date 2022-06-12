@@ -7,8 +7,7 @@ $(function () {
     } else {
       // 初回アクセス時
       sessionStorage.setItem('access', 'true'); // sessionStorageにデータを保存
-      $(".progress__bar__now").css("transition",".6s linear");
-      $(".progress__bar__now").width("100%");
+      $(".progress__bar__now").css("animation","progress .6s forwards");
       setTimeout(function () {
         // 幕を閉じて開く
         $(".maku__left, .maku__right").addClass('move');

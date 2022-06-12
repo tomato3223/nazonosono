@@ -736,14 +736,14 @@ li {
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 84 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 90 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
-/* line 85 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 91 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
   .progress__logo {
     width: 20vw;
   }
 
-/* line 87 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 93 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
   .progress__bar {
     width: 40vw;
   }
@@ -853,7 +853,29 @@ li {
   }
 }
 
-/* line 88 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+/* line 83 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+
+/* line 83 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+@-webkit-keyframes progress {
+
+/* line 84 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  100% {
+    width: 100%;
+  }
+}
+
+/* line 83 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+
+/* line 83 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+@keyframes progress {
+
+/* line 84 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
+  100% {
+    width: 100%;
+  }
+}
+
+/* line 94 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_load.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\common\_header.styl */
 
