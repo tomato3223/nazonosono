@@ -8,26 +8,28 @@
 
 .groupContents
   padding 4vh 3vw 0 3vw
+  &__wrap
+    margin 0 auto
+    max-width 40rem
+    padding 0 6rem 0 1rem
+    width 90vw
   &__number
     background-color c-txt-1
     color c-white
     display block
     font-size 120%
-    left calc(50% - 15rem)
-    position relative
     width 7rem
   &__groupName
     font-size 150%
     font-weight 500
-    left calc(50% - 15rem)
     letter-spacing 0.2rem
-    position relative
     text-align left
   &__groupIcon
-    left 8rem
     position relative
+    text-align right
     top -9.5rem
-    width 6rem
+    & img
+      width 6rem
   &__info
     margin-top 3rem
   & .hukidashi
@@ -37,16 +39,16 @@
 +ls()
   .groupContents
     padding 8vh 3vw 0 3vw
+    &__wrap
+      max-width 45rem
     &__number
       font-size 130%
-      left calc(50% - 20rem)
       width 8rem
     &__groupName
       font-size 160%
-      left calc(50% - 20rem)
     &__groupIcon
-      left 12rem
       top -12rem
-      width 10rem
+      & img
+        width 10rem
     & .hukidashi
         max-width 45rem
