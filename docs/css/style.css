@@ -1436,9 +1436,16 @@ li {
   .aboutStaff img {
     width: 8%;
   }
+
+/* line 36 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+
+/* line 37 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+  .aboutEvent__outline {
+    max-width: 45rem;
+  }
 }
 
-/* line 34 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 38 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_about.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\page\_access.styl */
 
