@@ -1,0 +1,14 @@
+doctype html
+block vars
+  include _config
+  - var key = "about"
+  - var page = pages[key]
+
+html(lang="ja", dir="ltr", prefix="og: http://ogp.me/ns#")
+  head
+    include include/_head
+
+  body
+    main.maintenance__main
+      img(class="hero__logoLarge" src=imgPath+"/top/logo_large.png" alt="上方謎の園ロゴ")
+      p.maintenance__main__desc ただ今メンテナンス中
