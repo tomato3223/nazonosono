@@ -1418,32 +1418,38 @@ li {
 }
 
 /* line 26 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+.aboutStaff__item__intro {
+  padding: 1rem;
+  text-align: left;
+}
+
+/* line 29 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
 .aboutStaff__item__name {
   font-size: 130%;
 }
 
-/* line 28 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 31 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
 .aboutStaff img {
   width: 7rem;
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 35 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
 
-/* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 36 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
   .aboutEvent__outline {
     max-width: 45rem;
   }
 
-/* line 35 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 38 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
 
-/* line 36 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
   .aboutStaff img {
     width: 8%;
   }
 }
 
-/* line 37 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
+/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_about.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_access.styl */
 
