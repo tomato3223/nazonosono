@@ -10,5 +10,5 @@ ErrorDocument 503 /maintenance.html
 <IfModule mod_headers.c>
   # 日本時間-9する
   # 6/17 9:00
-  Header set Retry-After "Fri, 17 Jun 2021 0:00:00 GMT"
+  Header set Retry-After "Fri, 17 Jun 2022 0:00:00 GMT"
 </IfModule>
