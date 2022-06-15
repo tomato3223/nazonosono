@@ -1,12 +1,12 @@
 
 /* line 28 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\style.styl */
 
-/* line 1 : C:\Users\daito\AppData\Local\Prepros\app-7.4.3\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : C:\Users\daito\AppData\Local\Prepros\app-7.6.0\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\style.styl */
 @charset "UTF-8";
 
-/* line 297 : C:\Users\daito\AppData\Local\Prepros\app-7.4.3\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
+/* line 297 : C:\Users\daito\AppData\Local\Prepros\app-7.6.0\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
 /* line 1 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\setting\_path.styl */
 
@@ -128,7 +128,7 @@
 
 /* line 25 : C:\Users\daito\OneDrive\ドキュメント\Github\nazonosono\src\stylus\component\_btn.styl */
 .btn--box--Twitter:hover {
-  border-color: #fff;
+  border-color: #1da1f2;
   background-color: #fff;
   color: #1da1f2;
 }
