@@ -1630,9 +1630,31 @@ li {
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
 
-/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
-
 /* line 55 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_group.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
+.timetable__main {
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
+.timetableContents {
+  padding: 4vh 3vw 0 3vw;
+}
+@media print, screen and (orientation: landscape) {
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
+  .timetableContents {
+    padding: 8vh 3vw 0 3vw;
+  }
+}
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\utility\_utility.styl */
 
