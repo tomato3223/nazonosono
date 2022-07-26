@@ -1644,13 +1644,13 @@ li {
 
 /* line 7 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
 .timetableContents {
-  padding: 4vh 3vw 0 3vw;
+  padding: 2vh 3vw 0 3vw;
 }
 @media print, screen and (orientation: landscape) {
 
 /* line 12 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
   .timetableContents {
-    padding: 8vh 3vw 0 3vw;
+    padding: 2vh 3vw 0 3vw;
   }
 }
 
