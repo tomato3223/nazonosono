@@ -6,3 +6,12 @@ block vars
   - var page = pages[key]
 
 block contents
+  img(class="topIcon" src=imgPath+"/"+key+"/logo_ticket.png" alt="ticket")
+  section
+    h1.ttl--1 チケット情報
+    span.ttl--2 TICKET
+    section.ticketEvent
+      h2.ttl--3 AnotherVision -unlimited-
+      div.ticketEvent__info
+        p(class="ticketEvent__info__name") 『½ match ニブンノイチマッチ』
+        img(class="ticketEvent__info__img" src=imgPath+"/"+key+"/anovi.png" alt="½ match ニブンノイチマッチ")
