@@ -1665,20 +1665,37 @@ li {
   font-size: 120%;
   padding-left: 1rem;
 }
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+
+/* line 23 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+.ticketEvent__info__dl dt {
+  background: #152a42;
+  color: #fff;
+  display: inline-block;
+  margin-top: 0.8rem;
+  text-align: center;
+  width: 10rem;
+}
+
+/* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+.ticketEvent__info__dl dd {
+  margin: 0.5rem 0 0 0;
+}
 @media print, screen and (orientation: landscape) {
 
-/* line 24 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+/* line 34 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
   .ticketEvent {
     margin: 5vh 0;
   }
 
-/* line 26 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+/* line 36 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
   .ticketEvent__info {
     margin: 3vh auto 0 auto;
   }
 }
 
-/* line 27 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+/* line 37 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
 
