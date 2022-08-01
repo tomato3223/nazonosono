@@ -1737,4 +1737,9 @@ li {
 .opac0 {
   opacity: 0;
 }
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\utility\_utility.styl */
+.letterSpaceNormal {
+  letter-spacing: normal;
+}
 /*# sourceMappingURL=style.css.map */
