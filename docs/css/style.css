@@ -1680,35 +1680,38 @@ li {
 
 /* line 30 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
 .ticketEvent__info__dl dd {
-  margin: 0.5rem 0 0 0;
+  margin: 0 0.5rem;
 }
 
 /* line 32 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
 
 /* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
-.ticketEvent__info__dl .dispFlex dt {
-  width: 10rem;
-}
-
-/* line 35 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
 .ticketEvent__info__dl .dispFlex dd {
+  margin: 0.5rem 0 0 0;
   padding-left: 1rem;
   width: calc(100% - 10rem);
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
   .ticketEvent {
     margin: 5vh 0;
   }
 
-/* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+/* line 41 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
   .ticketEvent__info {
     margin: 3vh auto 0 auto;
   }
-}
 
 /* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+
+/* line 44 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+  .ticketEvent__info__dl .hukidashi {
+    max-width: 45rem;
+  }
+}
+
+/* line 45 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
 
