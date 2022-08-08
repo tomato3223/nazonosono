@@ -1684,7 +1684,7 @@ li {
   background: #152a42;
   color: #fff;
   display: inline-block;
-  margin: 0.4rem 0;
+  margin: 0.8rem 0;
   text-align: center;
   width: 10rem;
 }
@@ -1699,7 +1699,7 @@ li {
 /* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
 .ticketEvent__info__dl .dispFlex dd {
   font-size: 120%;
-  margin: 0.5rem 0 0 0;
+  margin: 0.8rem 0;
   padding-left: 1rem;
   width: calc(100% - 10rem);
 }
