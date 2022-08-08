@@ -155,7 +155,16 @@
   width: 90vw;
 }
 
-/* line 6 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_box.styl */
+/* line 8 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_box.styl */
+.hukidashi--reverse {
+  background: no-repeat center/100% 100% url("../img/common/hukidashi_big_reverse.svg");
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 4.5rem 1rem 3.5rem;
+  width: 90vw;
+}
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_box.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\component\_icon.styl */
 
@@ -1675,7 +1684,7 @@ li {
   background: #152a42;
   color: #fff;
   display: inline-block;
-  margin-top: 0.8rem;
+  margin: 0.4rem 0;
   text-align: center;
   width: 10rem;
 }
@@ -1689,24 +1698,25 @@ li {
 
 /* line 33 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
 .ticketEvent__info__dl .dispFlex dd {
+  font-size: 120%;
   margin: 0.5rem 0 0 0;
   padding-left: 1rem;
   width: calc(100% - 10rem);
 }
 @media print, screen and (orientation: landscape) {
 
-/* line 39 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+/* line 40 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
   .ticketEvent {
     margin: 5vh 0;
   }
 
-/* line 41 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+/* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
   .ticketEvent__info {
     margin: 3vh auto 0 auto;
   }
 }
 
-/* line 42 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
+/* line 43 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_ticket.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\nazonosono\src\stylus\page\_timetable.styl */
 
